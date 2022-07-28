@@ -8,7 +8,7 @@
 <br>Wk 2
 <br>[x] Build HTML5 Chat app
 <br> Draw mockup / layout
-<br> frame and add id’s to <div>’s
+<br> frame and add id’s to ```<div>```’s
 <br> Style the page and 
 <br> wire up the JS code and understand
 <br>Wk 3
