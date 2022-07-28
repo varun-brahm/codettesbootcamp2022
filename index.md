@@ -87,7 +87,7 @@ overflow-y: scroll;
 <li>Chatapp.html</li>
 <li>Style.css</li>
 <li>app.js</li>
-<div id=code>
+<div id="code">
 <br>Code:
 
 ```
