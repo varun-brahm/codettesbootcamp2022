@@ -61,9 +61,9 @@
 
 <br>Problems  
 <ul>
- <li><br>mqtt server</li>
-<li><br>Lessons learned</li>
-<li><br>I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work</li>
+<br><li>mqtt server</li>
+<br><li>Lessons learned</li>
+<br><li>I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work</li>
 </ul>
 <br>Files & Downloads
 
