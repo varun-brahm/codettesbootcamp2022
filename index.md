@@ -11,29 +11,29 @@ Wk 2<br>
 * frame and add id’s to <div>’s
 * Style the page and 
 * wire up the JS code and understand
-Wk 3
-[ ] Build Chat app back-end NodeJS
+Wk 3<br>
+[ ] Build Chat app back-end NodeJS<br>
 * Build NodeJS server side to: 
 * host your ChatApp (Express static HTML)
 * Build / test API endpoints (for: users & messages)
-Wk 4
-[ ] Setup MongoDB datastore & connect via NodeJS
+Wk 4<br>
+[ ] Setup MongoDB datastore & connect via NodeJS<br>
 * Setup MongoDB datastore + mongoose ODM (Object-Document-Manager)
 * Store and recall message data using an API (ex. request top 100 msg)
 * Wire up MongoDB to API endpoints
 * Update app-flow to use back-end for Users and “old” messages
-Wk 5
-[ ] Create data-bound widgets to display sensor data
+Wk 5<br>
+[ ] Create data-bound widgets to display sensor data<br>
  * On ESP32 add MQTT client + ArduinoJSON
  * Send Sensor data to MQTT server (as a JSON object)
  * Create a DataCard, a Gauge and a time Chart widget on Dashboard (use chat app)
  * Strategy on DataBinding and Widget updating (Last updated)
  * User Login/Pw (state persistence)
-[x] Add Screenshots and description of the process of creating your board. 
-[x] Describe the design & programming steps
-[x] Screenshots or video of your Prototype/app working
-[x] Describe any errors or problems with the process and how you fixed them. 
-[x] Include all the files you created for download. 
+[x] Add Screenshots and description of the process of creating your board.<br>
+[x] Describe the design & programming steps<br>
+[x] Screenshots or video of your Prototype/app working<br>
+[x] Describe any errors or problems with the process and how you fixed them.<br> 
+[x] Include all the files you created for download.<br>
 
 
 Build HTML5 Chat app
