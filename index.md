@@ -1,37 +1,463 @@
-## WELCOME to Varun Brahmadin's Doc
+10. Interface & Application Programming
+Objectives
+Wk 1
+[x] Setup Dev Environment for ESP32 S2
+[x] Setup NodeJS Dev Environment on your PC
+[ ] Explain the HackOmation quadrant in relation to your final project.
+[x] Build UI mockups for your FInal Project and HTML Layout
+Wk 2
+[x] Build HTML5 Chat app
+* Draw mockup / layout
+* frame and add id’s to <div>’s
+* Style the page and 
+* wire up the JS code and understand
+Wk 3
+[ ] Build Chat app back-end NodeJS
+* Build NodeJS server side to: 
+* host your ChatApp (Express static HTML)
+* Build / test API endpoints (for: users & messages)
+Wk 4
+[ ] Setup MongoDB datastore & connect via NodeJS
+* Setup MongoDB datastore + mongoose ODM (Object-Document-Manager)
+* Store and recall message data using an API (ex. request top 100 msg)
+* Wire up MongoDB to API endpoints
+* Update app-flow to use back-end for Users and “old” messages
+Wk 5
+[ ] Create data-bound widgets to display sensor data
+ * On ESP32 add MQTT client + ArduinoJSON
+ * Send Sensor data to MQTT server (as a JSON object)
+ * Create a DataCard, a Gauge and a time Chart widget on Dashboard (use chat app)
+ * Strategy on DataBinding and Widget updating (Last updated)
+ * User Login/Pw (state persistence)
+[x] Add Screenshots and description of the process of creating your board. 
+[x] Describe the design & programming steps
+[x] Screenshots or video of your Prototype/app working
+[x] Describe any errors or problems with the process and how you fixed them. 
+[x] Include all the files you created for download. 
 
-You can use the [editor on GitHub](https://github.com/varun-brahm/codettesbootcamp2022/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Build HTML5 Chat app
 
-### Markdown
+So our objective was to build a chat app with a mqtt server. We first started by installing mqtt lens so we can connect to a public server. After that we made our mockups(pic 1) and put the drawings into code. After that we connected to the mqtt server with javascript, to make sure we had a connection. After that it was just adding functions and building a front end for it. After I connected to the mqtt server(pic2), I could send and receive messages(pic3).  I worked on the front end and styled it with css(pic 4)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+      
+Here we have my mockup  
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+After that we build our app with just the tags and the basic setup and connected it with a basic script. 
 
-1. Numbered
-2. List
+After we had connected to the mqtt server, It was just a matter of styling and building extra features, 
+In the first picture, i have already connect to the mqtt server, but i couldnt send messages. Was a coding error, but it got fixed pretty soon
 
-**Bold** and _Italic_ and `Code` text
+In the second picture, I can now write from the chat app and also read, So i had the basics covered
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/varun-brahm/codettesbootcamp2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+In the last pic i just styled it with css
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Problems  
+ mqtt server
+Lessons learned
+I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work
+Files & Downloads
+
+Containing:
+Chatapp.html
+Style.css
+app.js
+
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.3.7/mqtt.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+<title>Chatt app</title>
+<!--<link rel="icon" type="image/x-icon" href="logo.png"> -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #d3d3d3;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+aside {
+  float: left;
+  width: 15%;
+  height: 326px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 85%;
+  background-color:#524f4f;
+  overflow:auto;
+
+  height: 326px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+#cbox{
+
+ align: bottom;
+
+}
+
+.cinput, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#submit {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+h5{
+
+background-color: black;
+color: white;
+padding: 6px 7px 8px 9px;
+box-sizing: border-box;
+  
+}
+
+.list-group list-group-flush{
+background-color:black;
+
+
+}
+
+
+.pp {
+  border: none;
+  color: black;
+  #padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 4px;
+  cursor: pointer;
+  float: left;
+}
+
+.con {
+  border: none;
+  color: black;
+  #padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 4px;
+  cursor: pointer;
+  float: left;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search" ></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  <input id ="username" class="usernam" type="text" placeholder="Type a message"></input>
+</div>
+
+
+<header>
+  <h3>Chatapp</h3>
+  <button  class="pp" onclick="connect(sendPing())">Ping </button>
+  <button class="pp" onclick="sendPong()">Pong </button>
+  <button class="con" onclick="connect()">connect </button>
+</header>
+
+<section>
+ <aside>
+ <h1>Users</h1>
+ <div id="userlist"></div> 
+
+  </aside>
+
+   <article id="chatlog">
+    <h1>Chats</h1>
+  </article>
+
+</section>
+
+
+<footer >
+  <input id ="chatInput" class="cinput" type="text" placeholder="Type a message" onkeydown="sendMsg(this)"></input><br>
+  
+<button id="submit"  onclick="sendMessageButton(getElementById('chatInput').value); getElementById('chatInput').value='';">Submit </button>
+
+</footer>
+<script>
+
+
+
+	// Chat app MQTT settings
+	var mqttServer = "ws://broker.hivemq.com:8000/mqtt";
+	var mqttTopic= "codettes2022";
+	var userName = document.getElementById("username").value ||"Varun";
+	const clientId = 'cb22_' + Math.random().toString(16).substr(2, 8)
+	var userList = [];
+
+//var client ;
+
+	// Chat app MQTT settings
+	//var mqttServer = "ws://broker.hivemq.com:8000/mqtt";
+	//var mqttTopic= "codettes2022";
+	//var userName = document.getElementById("username").value ||"Varun";
+	//const clientId = 'cb22_' + Math.random().toString(16).substr(2, 8)
+	//var userList = [];
+
+	const opts = {
+	  keepalive: 30,
+	  clientId: clientId,
+	  protocolId: 'MQTT',
+	  protocolVersion: 4,
+	  clean: true,
+	  reconnectPeriod: 1000,
+	  connectTimeout: 30 * 1000,
+	  will: {
+	    topic: 'WillMsg',
+	    payload: 'Connection Closed abnormally..!',
+	    qos: 0,
+	    retain: false
+	  },
+	  rejectUnauthorized: false
+	}
+ 
+	console.log('connecting mqtt client')
+	var client = mqtt.connect(mqttServer, opts);
+  
+
+	client.on('error', function (err) {
+	  console.log(err)
+	  client.end()
+	})
+
+	client.on('connect', function () {
+	  // Once a connection has been made, make a subscription and send a message.
+	  console.log('client connected:' + clientId)
+	  client.subscribe(mqttTopic, { qos: 0 })
+	  client.publish(mqttTopic, userName + " signed on!", { qos: 0, retain: false })
+	  sendPong();
+	})
+
+
+	client.on('message', function (topic, message, packet) {
+	  msg = message.toString(); // library delivers  buffer so convert to strig first
+	  console.log("onMessageArrived: "+ msg);
+	  // if it has JSON payload do NOT add to chat
+	  try{
+	  	msgObj = JSON.parse(message.toString()); // t is JSON so handle it how u want
+	  	// if message has Pin of Pong in it send it to the PingPongHandler
+	  	if (Object.keys(msgObj)[0] == "ping"){sendPong();};
+	  	if (Object.keys(msgObj)[0] == "pong"){handlePong(msgObj.pong);}; // pong value is an object!!
+	  	// other handlers for control messages below
+
+	  }catch {
+	  	document.getElementById("chatlog").innerHTML += "<br> >> " + msg;	
+	  }
+	})
+
+	client.on('close', function () {
+	  console.log(clientId + ' disconnected')
+	})		
+  
+	  
+	function sendMessageButton(msgtext){
+	  	if (msgtext!=''){
+			var name={varun};
+			client.publish(mqttTopic, userName + " says: " + msgtext+ JSON.stringify(name));	  	
+		} 
+	}
+
+	// OR listen to the Enter event on n input box
+	function sendMsg(ele) {
+	    if(event.key === 'Enter') {
+			client.publish(mqttTopic, userName + " says: " + ele.value);
+	        //alert(ele.value); 
+	        ele.value = ""; // reset the input after entering       
+	    }
+	}
+
+	// --- To manage userlist implement a PING and PONG system ---
+	// Ping will request an "alive sign" from all or any user
+	// Pong function will respond to ping
+	// handlePong pongs in the UI
+	// Ping will be scheduled to run regularly as a KeepAlive signal
+
+	function sendPing(usr='*'){
+		// ping sends out a message to all (*) or any specific user to respond if ur there
+		var pingObj={ping:usr};
+		client.publish(mqttTopic, JSON.stringify(pingObj));
+	}
+
+	function sendPong(){
+		// sends clientID and UserName in a JSON object (and whatever u need more)
+		var pongObj={pong :{userName : userName, clientId:clientId}};
+		client.publish(mqttTopic, JSON.stringify(pongObj));
+		console.log(JSON.stringify(pongObj));
+	} 
+
+	// function that manages the UserList and other UI stuff related to PingPong
+	function handlePong(pongObj){
+		// Update Userlist with Pongs
+		const index = userList.findIndex(object => {
+		  return object.userName === pongObj.userName;
+		});
+
+		//console.log("index:" + index);
+		if(index>=0){
+			console.log("User exists");
+			userList[index] = pongObj;
+		} else{
+	    	console.log("New User " + pongObj.userName);
+	    	userList.push(pongObj); 				
+		}
+		//console.log(userList);
+		redrawUserList();
+	}
+
+	function redrawUserList(){
+		// Generate the userlist HTML
+		var ulist="<ul>";
+		userList.forEach(function (item) {
+		    //var x = arrayItem.prop1 + 2;
+		    ulist+= "<li>"+ item.userName + " <a href='#" + mqttTopic + "/" + item.clientId +"'><i class='fa fa-fw fa-phone'></i></a></li>"
+		});
+		ulist+="</ul>";
+		//console.log(ulist);
+		document.getElementById("userlist").innerHTML= "<br> >> " + ulist;
+	}
+	// to keep connection alive
+	//setInterval(sendPong, 10000); // keeps ponging every 10 secs
+	
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
