@@ -67,9 +67,9 @@
 </ul>
 <br>Files & Downloads
 
-<br>Chatapp.html
-<br>Style.css
-<br>app.js
+<li>Chatapp.html</li>
+<li>Style.css</li>
+<li>app.js</li>
 
 <br>Code:
 <codeblock>
