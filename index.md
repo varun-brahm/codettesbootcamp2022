@@ -70,6 +70,7 @@ Style.css
 app.js
 
 Code:
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -455,7 +456,7 @@ background-color:black;
 
 </body>
 </html>
-
+```
 
 
 
