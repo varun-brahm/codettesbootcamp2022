@@ -43,7 +43,7 @@
 
       
 <br>Here we have my mockup  
-<img src="media/draft.jpeg" alt="Draft">
+<img src="media/draft.jpeg" alt="Draft" style="width:500px;height:600px;">
 
 <br>After that we build our app with just the tags and the basic setup and connected it with a basic script. 
 
