@@ -1,76 +1,75 @@
-10. Interface & Application Programming <br>
-Objectives<br>
-Wk 1<br>
-[x] Setup Dev Environment for ESP32 S2<br>
-[x] Setup NodeJS Dev Environment on your PC<br>
-[ ] Explain the HackOmation quadrant in relation to your final project.<br>
-[x] Build UI mockups for your FInal Project and HTML Layout<br>
-Wk 2<br>
-[x] Build HTML5 Chat app<br>
-* Draw mockup / layout
-* frame and add id’s to <div>’s
-* Style the page and 
-* wire up the JS code and understand
-Wk 3<br>
-[ ] Build Chat app back-end NodeJS<br>
-* Build NodeJS server side to: 
-* host your ChatApp (Express static HTML)
-* Build / test API endpoints (for: users & messages)
-Wk 4<br>
-[ ] Setup MongoDB datastore & connect via NodeJS<br>
-* Setup MongoDB datastore + mongoose ODM (Object-Document-Manager)
-* Store and recall message data using an API (ex. request top 100 msg)
-* Wire up MongoDB to API endpoints
-* Update app-flow to use back-end for Users and “old” messages
-Wk 5<br>
-[ ] Create data-bound widgets to display sensor data<br>
- * On ESP32 add MQTT client + ArduinoJSON
- * Send Sensor data to MQTT server (as a JSON object)
- * Create a DataCard, a Gauge and a time Chart widget on Dashboard (use chat app)
- * Strategy on DataBinding and Widget updating (Last updated)
- * User Login/Pw (state persistence)
-[x] Add Screenshots and description of the process of creating your board.<br>
-[x] Describe the design & programming steps<br>
-[x] Screenshots or video of your Prototype/app working<br>
-[x] Describe any errors or problems with the process and how you fixed them.<br> 
-[x] Include all the files you created for download.<br>
+<br>10. Interface & Application Programming 
+<br>Objectives
+<br>Wk 1
+<br>[x] Setup Dev Environment for ESP32 S2
+<br>[x] Setup NodeJS Dev Environment on your PC
+<br>[ ] Explain the HackOmation quadrant in relation to your final project.
+<br>[x] Build UI mockups for your FInal Project and HTML Layout
+<br>Wk 2<br>
+<br>[x] Build HTML5 Chat app
+<br> Draw mockup / layout
+<br> frame and add id’s to <div>’s
+<br> Style the page and 
+<br> wire up the JS code and understand
+<br>Wk 3
+<br>[ ] Build Chat app back-end NodeJS
+<br>Build NodeJS server side to: 
+<br> host your ChatApp (Express static HTML)
+<br> Build / test API endpoints (for: users & messages)
+<br>Wk 4
+<br>[ ] Setup MongoDB datastore & connect via NodeJS
+<br> Setup MongoDB datastore + mongoose ODM (Object-Document-Manager)
+<br> Store and recall message data using an API (ex. request top 100 msg)
+<br> Wire up MongoDB to API endpoints
+<br>Update app-flow to use back-end for Users and “old” messages
+<br>Wk 5
+<br>[ ] Create data-bound widgets to display sensor data
+<br> On ESP32 add MQTT client + ArduinoJSON
+<br> Send Sensor data to MQTT server (as a JSON object)
+<br> Create a DataCard, a Gauge and a time Chart widget on Dashboard (use chat app)
+<br> Strategy on DataBinding and Widget updating (Last updated)
+<br>User Login/Pw (state persistence)
+<br>[x] Add Screenshots and description of the process of creating your board.
+<br>[x] Describe the design & programming steps
+<br>[x] Screenshots or video of your Prototype/app working
+<br>[x] Describe any errors or problems with the process and how you fixed them. 
+<br>[x] Include all the files you created for download.
 
 
-Build HTML5 Chat app<br>
+<br>Build HTML5 Chat app
 
-So our objective was to build a chat app with a mqtt server. We first started by installing mqtt lens so we can connect to a public server. After that we made our mockups(pic 1) and put the drawings into code. After that we connected to the mqtt server with javascript, to make sure we had a connection. After that it was just adding functions and building a front end for it. After I connected to the mqtt server(pic2), I could send and receive messages(pic3).  I worked on the front end and styled it with css(pic 4)<br>
+<br>So our objective was to build a chat app with a mqtt server. We first started by installing mqtt lens so we can connect to a public server. After that we made our mockups(pic 1) and put the drawings into code. After that we connected to the mqtt server with javascript, to make sure we had a connection. After that it was just adding functions and building a front end for it. After I connected to the mqtt server(pic2), I could send and receive messages(pic3).  I worked on the front end and styled it with css(pic 4)
 
 
       
-Here we have my mockup  <br>
+<br>Here we have my mockup  
 
 
-After that we build our app with just the tags and the basic setup and connected it with a basic script. <br>
+<br>After that we build our app with just the tags and the basic setup and connected it with a basic script. 
 
-After we had connected to the mqtt server, It was just a matter of styling and building extra features, <br>
-In the first picture, i have already connect to the mqtt server, but i couldnt send messages. Was a coding error, but it got fixed pretty soon<br>
+<br>After we had connected to the mqtt server, It was just a matter of styling and building extra features, 
+<br>In the first picture, i have already connect to the mqtt server, but i couldnt send messages. Was a coding error, but it got fixed pretty soon
 
-In the second picture, I can now write from the chat app and also read, So i had the basics covered<br>
-
-
+<br>In the second picture, I can now write from the chat app and also read, So i had the basics covered
 
 
-In the last pic i just styled it with css<br>
 
 
-Problems  <br>
- mqtt server<br>
-Lessons learned<br>
-I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work<br>
+<br>In the last pic i just styled it with css
 
-Files & Downloads<br>
 
-Containing:<br>
-Chatapp.html<br>
-Style.css<br>
-app.js<br>
+<br>Problems  
+ <br>mqtt server
+<br>Lessons learned
+<br>I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work
 
-Code:<br>
+<br>Files & Downloads
+
+<br>Chatapp.html
+<br>Style.css
+<br>app.js
+
+<br>Code:
 ```
 <!DOCTYPE html>
 <html lang="en">
