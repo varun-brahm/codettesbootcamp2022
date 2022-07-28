@@ -1,3 +1,20 @@
+<doctype html>
+<head>
+
+<style>
+#code{
+overflow-y: scroll;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+
+
 <br>10. Interface & Application Programming 
 <br>Objectives
 <br>Wk 1
@@ -72,19 +89,7 @@
 <li>app.js</li>
 
 <br>Code:
-<style>
-codeblocksss{
-overflow-y: scroll;
-
-
-
-}
-
-
-
-
-</style>
-<codeblocksss>
+<div id=code>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -472,8 +477,8 @@ background-color:black;
 </body>
 </html>
 ```
-</codeblocksss>
-
+</div>
+</body>
 
 
 
