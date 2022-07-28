@@ -49,14 +49,15 @@
 
 <br>After we had connected to the mqtt server, It was just a matter of styling and building extra features, 
 <br>In the first picture, i have already connect to the mqtt server, but i couldnt send messages. Was a coding error, but it got fixed pretty soon
+<img src="images/image2.jpg" alt="Draft" style="width:500px;height:600px;">
 
 <br>In the second picture, I can now write from the chat app and also read, So i had the basics covered
-
+<img src="images/image3.jpg" alt="Draft" style="width:500px;height:600px;">
 
 
 
 <br>In the last pic i just styled it with css
-
+<img src="images/image4.jpg" alt="Draft" style="width:500px;height:600px;">
 
 <br>Problems  
  <br>mqtt server
