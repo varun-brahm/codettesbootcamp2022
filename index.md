@@ -70,6 +70,7 @@
 <br>app.js
 
 <br>Code:
+<codeblock>
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -457,7 +458,7 @@ background-color:black;
 </body>
 </html>
 ```
-
+</codeblock>
 
 
 
