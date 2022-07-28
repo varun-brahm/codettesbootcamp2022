@@ -5,7 +5,7 @@
 <br>[x] Setup NodeJS Dev Environment on your PC
 <br>[ ] Explain the HackOmation quadrant in relation to your final project.
 <br>[x] Build UI mockups for your FInal Project and HTML Layout
-<br>Wk 2<br>
+<br>Wk 2
 <br>[x] Build HTML5 Chat app
 <br> Draw mockup / layout
 <br> frame and add id’s to <div>’s
