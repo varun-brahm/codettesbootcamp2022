@@ -60,10 +60,11 @@
 <br><img src="images/image3.jpg" alt="Draft" style="width:800px;height:600px;">
 
 <br>Problems  
- <br>mqtt server
-<br>Lessons learned
-<br>I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work
-
+<ul>
+ <li><br>mqtt server</li>
+<li><br>Lessons learned</li>
+<li><br>I got my web dev skills back, i forgot most of the tags tbh, but yeah refreshed it, Owh i learned javascript i never really went into that, and i also got working with mqtt servers and how those work</li>
+</ul>
 <br>Files & Downloads
 
 <br>Chatapp.html
