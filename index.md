@@ -1,12 +1,12 @@
-10. Interface & Application Programming
-Objectives
-Wk 1
-[x] Setup Dev Environment for ESP32 S2
-[x] Setup NodeJS Dev Environment on your PC
-[ ] Explain the HackOmation quadrant in relation to your final project.
-[x] Build UI mockups for your FInal Project and HTML Layout
-Wk 2
-[x] Build HTML5 Chat app
+*10. Interface & Application Programming
+*Objectives
+*Wk 1
+*[x] Setup Dev Environment for ESP32 S2
+*[x] Setup NodeJS Dev Environment on your PC
+*[ ] Explain the HackOmation quadrant in relation to your final project.
+*[x] Build UI mockups for your FInal Project and HTML Layout
+*Wk 2
+*[x] Build HTML5 Chat app
 * Draw mockup / layout
 * frame and add id’s to <div>’s
 * Style the page and 
