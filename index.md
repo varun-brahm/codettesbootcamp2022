@@ -469,8 +469,135 @@ background-color:black;
 </html>
 ```
 </div>
+<<<<<<< HEAD
+ol{margin:0;padding:0}table td,table th{padding:0}.c7{padding-top:18pt;padding-bottom:6pt;line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.c11{padding-top:20pt;padding-bottom:6pt;line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:center}.c9{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:16pt;font-family:"Arial";font-style:normal}.c0{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c8{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:"Arial";font-style:normal}.c3{color:#000000;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c6{color:#000000;text-decoration:none;vertical-align:baseline;font-size:20pt;font-family:"Arial";font-style:normal}.c2{padding-top:0pt;padding-bottom:0pt;line-height:1.15;orphans:2;widows:2;text-align:left}.c10{background-color:#ffffff;max-width:451.4pt;padding:72pt 72pt 72pt 72pt}.c5{background-color:#ffffff;color:#202124}.c4{height:11pt}.c1{font-weight:700}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
+
+3D Printing
+===========
+
+3D Printing is putting layers of a material(filament) on top of each other. The material we use is pla or abs.So we also need to configure our cura for the specific 3d printer.  We are gonna use the Anycubic Predator
+
+Filament types we can use: PLA, ABS 
+
+PLA and ABS are both thermoplastics. PLA is stronger and stiffer than ABS, but poor heat-resistance properties means PLA is mostly a hobbyist material. ABS is weaker and less rigid, but also tougher and lighter, making it a better plastic for prototyping applications.
+
+Install Cura
+------------
+
+First we need to install Cura version 5.0.0:
+
+![](3d_image/image3.png)
+
+ And just click through it
+
+Add the Printer
+---------------
+
+Go to Settings - Printer - Add Printer
+
+![](3d_image/image2.png)
+
+Add a non-networked printer- Anycubic - Anycubic Predator
+
+![](3d_image/image13.png)
+
+Put Parameters
+--------------
+
+These parameters are for PLA on the Anycubic predator
+
+Settings changed:
+
+ Walls:  Wall thickness: 1.21
+
+Top/Bottom: Top/Bottom Thickness 1.2
+
+![](3d_image/image1.png)
+
+Material:
+
+Printing Temperature: 195
+
+Build Plate Temperature: 60
+
+Travel:
+
+Enable Retraction: check
+
+![](3d_image/image6.png)
+
+![](3d_image/image5.png)
+
+These are the parameters. Now we need to adjust them.
+
+STL
+---
+
+I open tinkercad then 3d design and i wrote my name
+
+![](3d_image/image12.png)
+
+Then we go to export - stl
+
+![](3d_image/image9.png)
+
+And save the file as an stl
+
+G-Code
+------
+
+G-Code is the language that the printer understands,  it's basically just coordinates for the printer nozzle, so it knows where to and what to do, with some more info
+
+![](3d_image/image8.png)
+
+Here we see the time, the amount of filament used, the min and max in all the axes and some more info after that we see the coordinates in the different axes
+
+Okay next step is stl to gcode
+
+We can get the stl from tinkercad, when we design and we have to convert it to gcode for the printer
+
+Okay First we have to load an stl file.  WE go to File->Open File(s)                   ![](3d_image/image7.png)                     Now that our file is open. We have to scale our print to 104%
+
+![](3d_image/image10.png)
+
+And then lay it flat.
+
+![](3d_image/image4.png)
+
+And then slice it. Now We have the amount of time it's gonna take and the amount of grams of the filament.
+
+![](3d_image/image11.png)
+
+And now we have to save it as G-code. We click on Save to Disk and then enter the name
+
+Now we can put it on the sd-card and print it. That's for next time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
 
 	
+>>>>>>> cd5cf66d4838b7a1f6b73881e92a1301b19e1e44
 </body>
 
 
