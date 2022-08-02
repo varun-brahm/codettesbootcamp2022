@@ -568,45 +568,12 @@ And then lay it flat.
 ![](3d_image/image4.png)
 
 And then slice it. Now We have the amount of time it's gonna take and the amount of grams of the filament.
-
+<img src="3d_image/image11.png" alt="Draft" style="width:800px;height:600px;">
 ![](3d_image/image11.png)
 
 And now we have to save it as G-code. We click on Save to Disk and then enter the name
 
 Now we can put it on the sd-card and print it. That's for next time
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-=======
-
-	
->>>>>>> cd5cf66d4838b7a1f6b73881e92a1301b19e1e44
->>>>>>> ae9be3701d0c2431228128f5eb4296fb9fa14550
-</body>
-
-
 
 
 
