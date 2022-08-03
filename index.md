@@ -6,7 +6,7 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
 
-<br>10. Interface & Application Programming 
+<br> chapter 10. Interface & Application Programming 
 <br>Objectives
 <br>Wk 1
 <br>[x] Setup Dev Environment for ESP32 S2
@@ -469,7 +469,7 @@ background-color:black;
 </html>
 ```
 </div>
-3D Printing
+chapter 7: 3D Printing
 ===========
 
 3D Printing is putting layers of a material(filament) on top of each other. The material we use is pla or abs.So we also need to configure our cura for the specific 3d printer.  We are gonna use the Anycubic Predator
@@ -572,7 +572,7 @@ Now we can put it on the sd-card and print it. That's for next time
 
 
 
-3\. Business Model Canvas, Pitch & Poster
+chapter 3\. Business Model Canvas, Pitch & Poster
 =========================================
 
 3.1 Objectives
