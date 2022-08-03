@@ -478,7 +478,7 @@ Filament types we can use: PLA, ABS 
 
 PLA and ABS are both thermoplastics. PLA is stronger and stiffer than ABS, but poor heat-resistance properties means PLA is mostly a hobbyist material. ABS is weaker and less rigid, but also tougher and lighter, making it a better plastic for prototyping applications.
 
-Install Cura
+7.1 Cura
 ------------
 
 First we need to install Cura version 5.0.0:
@@ -527,7 +527,7 @@ Enable Retraction: check
 
 These are the parameters. Now we need to adjust them.
 
-STL
+7.2 STL
 ---
 
 I open tinkercad then 3d design and i wrote my name
@@ -540,7 +540,7 @@ Then we go to export - stl
 
 And save the file as an stl
 
-G-Code
+7.3 G-Code
 ------
 
 G-Code is the language that the printer understands,  it's basically just coordinates for the printer nozzle, so it knows where to and what to do, with some more info
@@ -568,6 +568,9 @@ And then slice it. Now We have the amount of time it's gonna take and the amount
 And now we have to save it as G-code. We click on Save to Disk and then enter the name
 
 Now we can put it on the sd-card and print it. That's for next time
+
+7.4 Printing
+---------------------------
 
 
 
