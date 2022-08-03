@@ -463,8 +463,8 @@ background-color:black;
 </body>
 </html>
 ```
- (<br>) (<br>)
-<h1> chapter 7: 3D Printing </h1>
+ <br> <br>
+<h1> Chapter 7: 3D Printing </h1>
 
 
 3D Printing is putting layers of a material(filament) on top of each other. The material we use is pla or abs.So we also need to configure our cura for the specific 3d printer.  We are gonna use the Anycubic Predator
@@ -567,9 +567,9 @@ Now we can put it on the sd-card and print it. That's for next time
 7.4 Printing
 ---------------------------
 
+ <br> <br>
 
-
-chapter 3\. Business Model Canvas, Pitch & Poster
+Chapter 3\. Business Model Canvas, Pitch & Poster
 =========================================
 
 3.1 Objectives
