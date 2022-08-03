@@ -43,8 +43,8 @@
 <br>[x] Describe any errors or problems with the process and how you fixed them. 
 <br>[x] Include all the files you created for download.
 
-
-<br>Build HTML5 Chat app
+10.1 Build HTML5 Chat app
+---------------------------
 
 <br>So our objective was to build a chat app with a mqtt server. We first started by installing mqtt lens so we can connect to a public server. After that we made our mockups(pic 1) and put the drawings into code. After that we connected to the mqtt server with javascript, to make sure we had a connection. After that it was just adding functions and building a front end for it. After I connected to the mqtt server(pic2), I could send and receive messages(pic3).  I worked on the front end and styled it with css(pic 4)
 
