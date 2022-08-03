@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/png" href="favicon.png">
+
 <h1>Varun Brahmadin's Documentation</h1>
 
 <a href="#CB1">Chapter 1.</a> 
