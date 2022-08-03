@@ -470,7 +470,7 @@ background-color:black;
 ```
 </div>
 chapter 7\. 3D Printing
-==========================
+=========================================
 
 3D Printing is putting layers of a material(filament) on top of each other. The material we use is pla or abs.So we also need to configure our cura for the specific 3d printer.  We are gonna use the Anycubic Predator
 
