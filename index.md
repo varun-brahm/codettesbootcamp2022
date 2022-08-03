@@ -1,22 +1,22 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
-<a href="#CB1">Chapter 1.</a>
-<a href="#CB2">Chapter 2.</a>
-<a href="#CB3">Chapter 3.</a>
-<a href="#CB4">Chapter 4.</a>
-<a href="#CB5">Chapter 5.</a>
-<a href="#CB6">Chapter 6.</a>
-<a href="#CB7">Chapter 7.</a>
-<a href="#CB8">Chapter 8.</a>
-<a href="#CB9">Chapter 9.</a>
-<a href="#CB10">Chapter 10.</a>
-<a href="#CB11">Chapter 11.</a>
-<a href="#CB12">Chapter 12.</a>
-<a href="#CB13">Chapter 13.</a>
+<a href="#CB1">Chapter 1.</a> 
+<a href="#CB2">Chapter 2.</a> 
+<a href="#CB3">Chapter 3.</a> 
+<a href="#CB4">Chapter 4.</a> 
+<a href="#CB5">Chapter 5.</a> 
+<a href="#CB6">Chapter 6.</a> 
+<a href="#CB7">Chapter 7.</a> 
+<a href="#CB8">Chapter 8.</a> 
+<a href="#CB9">Chapter 9.</a> 
+<a href="#CB10">Chapter 10.</a> 
+<a href="#CB11">Chapter 11.</a> 
+<a href="#CB12">Chapter 12.</a> 
+<a href="#CB13">Chapter 13.</a> 
 
 
-
-<br><h1> chapter 10. Interface & Application Programming </h1>
+<a id="CB10">Chapter 10.
+<br><h1> chapter 10. Interface & Application Programming </h1></a>
 <br>Objectives
 <br>Wk 1
 <br>[x] Setup Dev Environment for ESP32 S2
