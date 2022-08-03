@@ -1,8 +1,3 @@
-<doctype html>
-<head>
-
-</head>
-<body>
 <h1>Varun Brahmadin's Documentation</h1>
 
 
