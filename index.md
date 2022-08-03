@@ -1,5 +1,7 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
+<a href="CB3">Chapter 3.</a>
+
 
 <br><h1> chapter 10. Interface & Application Programming </h1>
 <br>Objectives
@@ -568,7 +570,7 @@ Now we can put it on the sd-card and print it. That's for next time
 ---------------------------
 
  <br> <br>
-
+<a id="CB3">Chapter 3</a>
 Chapter 3\. Business Model Canvas, Pitch & Poster
 =========================================
 
