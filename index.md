@@ -572,6 +572,94 @@ Now we can put it on the sd-card and print it. That's for next time
 
 
 
+3\. Business Model Canvas, Pitch & Poster
+=========================================
+
+3.1 Objectives
+--------------
+
+Wk 1
+
+-   [ ] Setup your BMC for final project
+
+-   [ ] Setup Pitch Deck
+
+-   [ ] Create project poster
+
+-   [ ] Add Screenshots and description of the process of creation. 
+
+-   [ ] Describe the design & programming steps
+
+-   [ ] Screenshots or video of your Prototype/app working
+
+-   [ ] Describe any errors or problems with the process and how you fixed them. 
+
+-   [ ] Include all the files you created for download.
+
+3.2 Setup project BMC
+---------------------
+
+### What is BMC ?
+
+ The Business Model Canvas is a template used for developing newand documenting existing ones. It offers a visual chart with elements describing a firm's or product's , infrastructure, customers, and finances, assisting businesses to align their activities by illustrating potential trade-offs.
+
+Canvas were initially proposed in 2005 by Alexander Osterwalder
+
+In other words its your whole business plan on 1 sheet of paper ![](https://lh6.googleusercontent.com/Nth3Mk9Zt2Twy4P50fsRYHeob6spNry7w64aKZOJhSOo9dD8E3XugH186Y37OlE5ixdOIeFU-Gaml9Pyylcwk8XfXyRZsZPLlM6qIhRyoaBS037Z4lANIbrLatNn_rfT0H5CCIzndLhLJJL7rhP3l3U)
+
+Value proposition: What do u have to offer, What's so special about your product that the others dont have.
+
+ Ex: Quick response, delivery till home or repairs till home
+
+Customer Segments: Your target audience,  Who are the people u are selling to.
+
+ Ex: Schools, Hotels but also people with covid for example 
+
+Channels: How are u gonna reach your customers,  ads and where are you going to place those ads,  
+
+Ex: Facebook 
+
+Customer relationships: Make a platform so your customers always come back to you. 
+
+Ex: custom coding
+
+Key resources: The things you need to start your product.
+
+ Ex: Tools,  Place to work,  if u have many workers a bus for example
+
+Key activities: What are do things u need to do, before your product hits the market 
+
+Ex: Make your own code or platform
+
+Key partners: The less the better.  Your partners in the product 
+
+Ex: Telesur
+
+Cost structure: everything on the key side
+
+Revenue stream: everything on the customer side
+
+### My Progress 
+
+My canvas: <https://next.canvanizer.com/canvas/iYxVgoqjYPIHP>
+
+So now i am still playing with canvanizer, So i just put for value a submarine with a service and don't mind the customer segments
+
+3.3 Setup project PitchDeck
+---------------------------
+
+3.4 Project poster
+------------------
+
+Please use HEADINGS and create some structure in your documentation
+
+Files & Downloads
+-----------------
+
+
+
+Containing:
+
 
 
 
