@@ -1,6 +1,6 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
-<a href="CB3">Chapter 3.</a>
+<a href="#CB3">Chapter 3.</a>
 
 
 <br><h1> chapter 10. Interface & Application Programming </h1>
