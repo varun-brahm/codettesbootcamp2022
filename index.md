@@ -73,7 +73,7 @@
 <li>Chatapp.html</li>
 <li>Style.css</li>
 <li>app.js</li>
-<div id="code" style="overflow-y:scroll">
+
 <br>Code:
 
 ```
@@ -463,7 +463,7 @@ background-color:black;
 </body>
 </html>
 ```
-<br><br>
+
 <h1> chapter 7: 3D Printing </h1>
 
 
@@ -569,7 +569,6 @@ Now we can put it on the sd-card and print it. That's for next time
 
 
 
-<br><br>
 chapter 3\. Business Model Canvas, Pitch & Poster
 =========================================
 
