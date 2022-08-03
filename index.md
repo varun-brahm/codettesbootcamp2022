@@ -6,7 +6,7 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
 
-<br> chapter 10. Interface & Application Programming 
+<br><h1> chapter 10. Interface & Application Programming </h1>
 <br>Objectives
 <br>Wk 1
 <br>[x] Setup Dev Environment for ESP32 S2
