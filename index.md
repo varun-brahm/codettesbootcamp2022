@@ -1,6 +1,19 @@
 <h1>Varun Brahmadin's Documentation</h1>
 
+<a href="#CB1">Chapter 1.</a>
+<a href="#CB2">Chapter 2.</a>
 <a href="#CB3">Chapter 3.</a>
+<a href="#CB4">Chapter 4.</a>
+<a href="#CB5">Chapter 5.</a>
+<a href="#CB6">Chapter 6.</a>
+<a href="#CB7">Chapter 7.</a>
+<a href="#CB8">Chapter 8.</a>
+<a href="#CB9">Chapter 9.</a>
+<a href="#CB10">Chapter 10.</a>
+<a href="#CB11">Chapter 11.</a>
+<a href="#CB12">Chapter 12.</a>
+<a href="#CB13">Chapter 13.</a>
+
 
 
 <br><h1> chapter 10. Interface & Application Programming </h1>
@@ -466,8 +479,9 @@ background-color:black;
 </html>
 ```
  <br> <br>
+ <a id="CB7">
 <h1> Chapter 7: 3D Printing </h1>
-
+</a>
 
 3D Printing is putting layers of a material(filament) on top of each other. The material we use is pla or abs.So we also need to configure our cura for the specific 3d printer.  We are gonna use the Anycubic Predator
 
@@ -570,9 +584,10 @@ Now we can put it on the sd-card and print it. That's for next time
 ---------------------------
 
  <br> <br>
-<a id="CB3">Chapter 3</a>
+<a id="CB3">
 Chapter 3\. Business Model Canvas, Pitch & Poster
 =========================================
+</a>
 
 3.1 Objectives
 --------------
