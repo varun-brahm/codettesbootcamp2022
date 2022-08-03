@@ -27,7 +27,7 @@
 <a href="#CB13">Chapter 13.</a> 
 
 
-<a id="CB10">Chapter 10.
+<a id="CB10">
 <br><h1> chapter 10. Interface & Application Programming </h1></a>
 <br>Objectives
 <br>Wk 1
