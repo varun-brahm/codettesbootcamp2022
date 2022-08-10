@@ -702,8 +702,9 @@ Chapter 4: Freecad</a>
 4.1 Installing freecad and inkscape
 -----------------------------------
 
-![](https://lh5.googleusercontent.com/cOuF5VRFNvOoLVMVPDU2lb8zxVm92rGYwaMEW95ARKS93BzyM1HZam-xq-E5VBWPIVacJ3rH-DhDeHAp-FqH3n2jMpAUXYwESAdFix2u1zoWZN_p05UN4KxoAoVCVtaJsPhDSfcEmF-DYpdiZN9o5uk) Just run the freecad installer and click through it ![](https://lh6.googleusercontent.com/C5dlwU5_0Cy3Zq00ks8ldHPnMEC4AvMnogAXD-j1W1Em6UTeEE_BphivHQZoHHBHWkIasAY2aZQHw9wxscw_RNawGTC3XY_dTzjeHveDcgc7lxhRNYT780ri44ZvUNDuJ35aKpBGSp8z-E4D6P6h4i4)
+![](freecad/image18.png) Just run the freecad installer and click through it
 
+ ![](freecad/image8.png)
 Next run the inkscape installer and click through it
 
 4.2 Creating a hole in Freecad 
@@ -711,60 +712,49 @@ Next run the inkscape installer and click through it
 
 First we create a new object 
 
-![](https://lh4.googleusercontent.com/24E7z4tM9MnIbcpRH-oh1jUfxdd2MMy6uc9J39XQlBfo9ISrc-9PX0qMUEJE8BUPo5QYdfzfeEsAz_LqtXEYXaS9lyqhq2nGqkN967wiWaOim-PmwB82rzVhrzOFAnsfYZD9OIqJJoJ0jwqNtPQ0_tE)
 
+![](freecad/image5.png)
 Create a new object
 
-![](https://lh6.googleusercontent.com/VRfbuXTitlvgvafaP9dXNHiCdfVRbyScO3xaNTeDhyCa2iXGoPlCcpwDyYN024bfsYxhvhinl6amj0J1JYhxajOYlrj8gAet_cEGI8o-Rc-Iw0ptw8uTjR_mUut7RtAM56so_uu3B1ri6vrljc5i8Z4)
-
+![](freecad/image2.png)
 Instead of start-> Go to Part Design
 
-![](https://lh3.googleusercontent.com/qKPjE2KKmgKFXg0KqNq0iRVg52KxAvK-LTNltQf8MpgyvwIDfNA7UnrUlxI7cHbs4S1IiNK-CclQZjG7oGpXcAnMMEfSTcEw-8cjHuCFaIkDsdXCN23DCA7g3ojFArzv_B9U3NX0FF-_ee-zdP7EhjQ)
-
+![](freecad/image4.png)
 Click on Create sketch
 
-![](https://lh5.googleusercontent.com/ayF2bjEcbGJlNG1C9EEyYKh9LSqy4DGbx5bc-eAH1_IdjscI0YDKhNtTYSI4yWky9wBn-H8bwjLdMPGvo8TKyVxtHuIqK6mDt6cOQAk-bR0xcVvagczL0xZnFtvykNckc3Ya1vkqwsFAwY-VXjaU_pE)
-
+![](freecad/image15.png)
 Select XY_Plate and click on OK
 
-![](https://lh5.googleusercontent.com/q5zfa608xfvxKXfZNE9Wa52UjbNd9wohtms7eDvcH6c2LuPJfK0EyddgsAQMIyPiZhgnnEwM8MLBVHCySJLh3wawSKF0mc8l2JpRjgoUbdczns2s_72Z6EizAu_HaJyOwsbS1D3cePRgtTsQNn-r9h8)
-
+![](freecad/image17.png)
 Go to Create Rectangle and click on it
 
-![](https://lh6.googleusercontent.com/N2UYvlcDd0ceo4XDEP2Zh0JARm4W3qrt4EEIcYOZz2SOzSKAvTSX5bQC7ay6EvDpUmCK0iHBmM6E13HGe35rahWo8A4UXp0o70Jo4wZyEqq1zNVGF4UsMexEw17OMMS1cAWi9HgtV8FI9okGBBUqfb0)
-
+![](freecad/image16.png)
 And then Draw the rectangle
 
 After that we need to adjust the length and width of the rectangle to 100mm
 
-![](https://lh5.googleusercontent.com/3RLPM5J6V2xUgM__kqNXQmakbTWtFiv2H1GLO69EBezU8hiHiZmKT4lC2JgTsAlm0414wULDC85VYVLPkaozO_Hee95-4jSHLXAXo3Ig3BoPSjlVm0KYu9CKYc7UwOYrpRL9H8nhprtp1n3xKd8vxuQ)
-
+![](freecad/image11.png)
 We first go to "Contain horizontal distance"
 
 And then click on the horizontal side
 
-![](https://lh3.googleusercontent.com/7VSMGj5Z2R0msiT9S0CWRGnbdYnowCnl7c3_sB5n30je3E3hK-N5maE49MBp87zAEp_dc2tco0uKJsUhmttgSgTbck0o22DSQH6ZP-4vCyFyMcku5_lvBWEUslDtOU3L79OpC-EjC0-DlTuwtuatkQs)and then adjust it to 100
+![](freecad/image9.png) then adjust it to 100
 
-![](https://lh5.googleusercontent.com/Ez3Nt7odj1NDVEqxYF5OPLg1BScJUPkwZtqd7DK8XK6qQToQvcKlqzbg_5-wK3VkjLdb4Q73FnPUCoJLDoR903SJViTWSzPZmf5lX_pZRgTZYgs1ZXcNnc2R7lrOpeTBPneflLodOBtF2TtIXfnbsF8)then the vertical side
-
-![](https://lh6.googleusercontent.com/sfqBjkf9gFWUVTBAftQhHDgcTVVlHw3P59RSCuoMxgslyy9iUcS7lM5qL3yviGQTPBkNtI74SuIh15XUm-IrHymUNPwy_6PsmdCXu3FI927o65Rn7bNTyfV2ytW8qR2O7vmZSwHdHyo6sXshVcBHHjI)
-
+![](freecad/image14.png) the vertical side
+![](freecad/image9.png)
 And then adjust the width to 100mm
 
 --till here for creating a pocket---
 
-![](https://lh3.googleusercontent.com/bYtd-FvnPeJ8ZS36TlDJ2BtEfB41bO8_xSRV4AkPPTOPTQqnTIe1g9v1RsTTKGvJrGpY67D0T-Q71o7xdFtW49UAeSXr8zmki4E8xkk7wFw7O07zFvtqQ3xs2HBlM335P6tt-10R2EHQmutzxcbaWVE)
-
+![](freecad/image1.png)
 After that choose the circle and draw one
 
 After that click on close in the Task
 
-![](https://lh3.googleusercontent.com/zKi50e7HpoSultLlojDxOm2g5lQW-uIHi4aI1aPA8aclEFTl59b_awSMIRS9PbGt3Glvpk8HId6VRnhioUg24Iy90omw_oEAWEj7Oa8ccwr4F6tkYWTVHKUhUU9V86ozLY9pMq7yUP5dvrbqPgLbFe0)
-
+![](freecad/image7.png)
 After u click on pad there will be a solid layer
 
-![](https://lh5.googleusercontent.com/I3igdMHPjC1AMrDcww75DtZkWhtTRWby5cd_jFh_fYtn0zM2xsTAYhsBscCboaEDk28EdhA9q_AXe3sTr2p7Nmtfg6-3M3I2P4Wdoni-v-1yRpZdFehmryyCX9fLYTqrwArCMdgsfPMhNlsEqsbLLJQ)
-
+![](freecad/image19.png)
 Like this and now you also have a hole through it
 
 4.3 Creating a pocket 
@@ -774,36 +764,29 @@ You can follow the last documentation and its marked till where
 
 You just click close and when back u can just click on pad 
 
-![](https://lh6.googleusercontent.com/-xgLiVdK71JaZIN-dEH498u-87IjyrVEhtH_5GsGyyW7ZUrleVhkrl9XZHu3jHKKE-57Ee9G2n0aE5vRa23gbfRWCY10ljSn0j7OOWM5JYoVdZtertn4h-wgHr_7Pipe0wGKZEd00y3JX2Essgn5tl0)
-
+![](freecad/image21.png)
 U will have something like this, you can click ok after that you can click on create sketch again
 
-![](https://lh5.googleusercontent.com/s8iq8akVo42s18b6LjiWBGbLxCjt5dqZywf4QOtkXZv-gqokiF3O9rdsLrFraHrlLPQzAXxc0dRUTcaAAdF979x7_fkn64lmbnaBbuzYQyAJqjyMTtiQNZnBVg2TbWgd7dkS0kD6EmFEtiBvhQKo46Y)
-
+![](freecad/image20.png)
 And you can select the XY_Plane
 
-![](https://lh6.googleusercontent.com/QMnRBUfuzuHWiLG7ssnrMARPG85_XSmupPryPwxQXr6NKQbd8TebHWEYEZ-xZD8m5mosDftwTCsah5CnMzUtfN8MeM0b_FdneaJfuciHrPZcI2geoBQk_-ZmfjhZv-MNcwi-8z5xQO7MWX0b-8nBD-4)
-
+![](freecad/image13.png)
 After that you will see your solid design and you can draw a circle on it,  for more info on that check chapter 4.2
 
 Note: The circle may come on the opposite side, but dont worry, just draw it and turn your design
 
-![](https://lh4.googleusercontent.com/BguAdYfBntyIntdw2Nzottb4CbKZAyuSE1j07-WmqaAl7Q-37opt0mzEV1mFpetDWj_70Yt8SpBN3wEe-em2S56p1exnrWafz47riGWsIkbQezfhXHXopCqI7LbVOoB2mHPvhbYMTPYacGBXgJC3unw)
-
+![](freecad/image12.png)
 Here i already have the circle and i turned my design
 
 You can click on close from here
 
-![](https://lh4.googleusercontent.com/8qS7x1IT-eW79i3BjbztTWB6NVZ-l6UfZYZLPYbtPt8kXRgq_pW--d5_iy7lSaU6vw_Uz-zBEzVXvbRXTuCIXyoHMgxTuMsfbi0-tzAkSl0MiVRwDt66ybxUntT6OTL903wNZAAKuT-nmbuHv2ubO8U)
-
+![](freecad/image10.png)
 And now you can click on pocket and just close it from the task
 
-![](https://lh5.googleusercontent.com/4d-vRqGPL6je_WH8Q87G65KKB-fh6pR45QDlZYP4_JbEmJm39wghoSVeKUNlK12foICtsprXuYwr1bbLqWfYJevZF7maH98kJrOg6yEYcg31QyMmK2TlCy55o9VBCZvkzduj2T-6ywM0JKwbk0XuD1Q)
-
+![](freecad/image3.png)
 The select the circle in the middle so it becomes a different color and click on pocket again
 
-![](https://lh3.googleusercontent.com/m7d3eHVGu5TR6awH899oL_Dfffh2IvH_JqkkgJMvTykO269HM39cgj2rtz6P2H9WHRj-uyqReC9zn47nS0RNJmYM1FoqZ_v_D0CuE-dODcQTx2OYuTFi8XHouNPpy5ISHfWdWZQnMIwU4oiD02cWXT4)
-
+![](freecad/image6.png)
 Then you are left with something like this,  you can adjust the parameters if u want, its on the left side in the combo view in either Model or Task
 
 
