@@ -674,24 +674,30 @@ My canvas: <https://next.canvanizer.com/canvas/iYxVgoqjYPIHP>
 So now i am still playing with canvanizer, So i just put for value a submarine with a service and don't mind the customer segments
 
 I presented my bmc and got feedback
-Value
+Value: 
+
 1.Different models
+
 2. Sensors
+
 3. enviorment
+
 4.Location estimate
+
 5. Lidar
 
-Customer relationships
+Customer relationships:
 A webapp
+
 Custom parts
 
-Channels
+Channels:
 
 A website
 
 Stores
 
-Customer Segments
+Customer Segments:
 
 Kids
 
