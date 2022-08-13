@@ -796,7 +796,7 @@ You can follow the last documentation and its marked till where
 You just click close and when back u can just click on pad 
 
 ![](freecad/image21.png)
-U will have something like this, you can click ok after that you can click on create sketch again
+U will have something like this, you can click ok, Select the top and after that you can click on create sketch again
 
 ![](freecad/image20.png)
 And you can select the XY_Plane
