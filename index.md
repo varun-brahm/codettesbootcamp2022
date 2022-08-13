@@ -673,35 +673,36 @@ My canvas: <https://next.canvanizer.com/canvas/iYxVgoqjYPIHP>
 
 So now i am still playing with canvanizer, So i just put for value a submarine with a service and don't mind the customer segments
 
-I presented my bmc and got feedback
+I presented my bmc and got feedback 
+
 Value: 
 
-1.Different models
+1. Different models
 
 2. Sensors
 
 3. enviorment
 
-4.Location estimate
+4. Location estimate
 
 5. Lidar
 
 Customer relationships:
-A webapp
+1. A webapp
 
-Custom parts
+2. Custom parts
 
 Channels:
 
-A website
+1. A website
 
-Stores
+2. Stores
 
 Customer Segments:
 
-Kids
+1. Kids
 
-Researchers
+2. Researchers
 
 3.3 Setup project PitchDeck
 ---------------------------
