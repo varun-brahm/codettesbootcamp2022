@@ -820,5 +820,178 @@ The select the circle in the middle so it becomes a different color and click on
 ![](freecad/image6.png)
 Then you are left with something like this,  you can adjust the parameters if u want, its on the left side in the combo view in either Model or Task
 
+4.4 Creating the holes
+----------------------
+
+First we created a object with 2 holes and 1 pocket
+
+Parameters i used are: 100mm*100mm*10mm
+
+Check the previous paragraphs for that
+
+After we have that
+
+![](https://lh5.googleusercontent.com/1bhYCJXNo_JXLV1S5ZqOXnZOaGy7kx0-BHVKGRfFeuybH3TB6vMo2QaSDzetk31F3mVqZw3Gi4c1oMIwmTxGDKsVjzKfT3lEsIYzyQkklJ4K5cSJe2Tl4OZ-NVYGwNEnw0W4hSefng0JZ3p7j0vmIFM)
+
+U should have a object like this and then go and select Path
+
+![](https://lh5.googleusercontent.com/4tXghW8Tsgtvar1Nikt6_odLERpXF_uog8_2gwi4WH5-vRMpGB4b3CkESjYtlN3Mn00TVyIS6RlLOr_hG2amnmWPWuky7vye5cwTIKyGEWgpRqp1QUV3odqqbK00UpzgVXoxw6kl2DsgKpIgkqutf20)
+
+After you selected path go and click on job
+
+![](https://lh4.googleusercontent.com/m32wow06pHBNH8wbptVBFc5-M6R_9BmrHAAHjMdR8JNzo95t-X0S0PIb_oJBxzufNIWKGNpNb6wGVJYro-NyZUzeLGd5_F12T67_FIVP6RwdU69608fplP_uX-moUSACrztU53CQrnF-sdD80rl-MZg)
+
+I select body 1,  but i dont think its necessary and then just click on OK
+
+![](https://lh5.googleusercontent.com/xcFNf_al_xGlm-o-i5mgO1HrQyE5BR9MLStQY4rQAgCpVUeSaQnAPSukPaiMoSNOl_SRydtQx09NYzwL9kBlIg7_lulLcsPlTXnux4fHFuzdgBQgP6uhcuIRlHL_AgFkH0npdSzdpXUCrPwe9FxHMig)
+
+After that you will see that the purple bubble is on the bottom, you need to bring it to the top, So u have to precisely select the corner above it, in the picture you can see the corner is yellow(a small dot)
+
+![](https://lh3.googleusercontent.com/8RNp57Mcppw-S14krmcOx6xeObxVhshrIPBgOo_x-pSV01l9KsHIi7gJ7DLVB5PFNW1lRYhK2LU2ADzVtgURfcUt9JTKLDgVgZxGEaZpoVP4R8pv30_EWp9UdHNrDXdi-e5kdivY4zqVFFYAVvt7AZo)
+
+After you have selected the corner, go to Set Orgin and click on it and the click OK
+
+![](https://lh3.googleusercontent.com/m5qenpwAD5Rhw5PzRbIZYpl5ic6GrQqjzndXeBKQmrQilCXXiYLs5k1P6YK899nmaHpBpzakF8nwwBxMvgwWrQtizLemcuLWW7sNFIrS3RkAJtuXy_Z7gEp8ctEsC5FWfxQcD84LVTwcdVFXvCeykM0)
+
+After that go to ur body and press the space bar to hide it
+
+![](https://lh3.googleusercontent.com/ShKV8cNqUfYtFD15e0axUxbq3Y-5-sCZdD93Dl2K2c6FqKs32zbufPDvTWCbsM7we0xuUEZpw76ItSiR5PYp8Thio2XsJUCyuoTkMFXSisLdYeGAaZb75xG73uQspEJzHvqbWE0p3i4KxzLTYyA-DOI)
+
+After that go to Model Body and press the space bar to activate it
+
+![](https://lh4.googleusercontent.com/lrPELkBUU2kGphSUh9de9kAZibRBtHA9O-YD8bBVjV7tyeiIZU8-wteIioK7yfdc8hnauwMpzCTKx_4NA9ab2qeES7upz8SKaeLKrjpN1w45E1IIl8AYrdkiba-IyeZlyXTwWrEOunb3YQBZtIVVyJc)
+
+You will see something like this, after that click on ToolBit Dock
+
+![](https://lh5.googleusercontent.com/nh1d1NIsOJlwpv9NElQbKA0oyRNBC7Hpxze8w25f7datIxBzUEhJHIxHBT7cifg-Glj3E4akahW7eM-t1bv2KXcImDKIUMKm4HN8ulNKpgeJ3U64GXTZ4EA5hfztexG7J43EyAA9dm2x5EmDKD-ZJC4)you will get a window on the right side, go to the top right of it to create a new tool bit
+
+![](https://lh3.googleusercontent.com/q1wt1oNvRdbdqJfJiSTtAWJV7ZOQBUsjTnnPMIiPgjXAyT0Ybgzqla-yNRVgU7iLNzvStQUZ_PpfxjcISc1Mc2p8UCLkL1V6x-pdMwT3ad43xjniUM7Xgt3CsUasvkMNhwROZSKUnaZsYoMv_eNeiKE)
+
+You will see something like this then, click on Create Toolbit
+
+![](https://lh5.googleusercontent.com/oilR-0jhlLlHnVqZu2WA2_g0ef_7bgW40_Qhljvmy7CFyhudcRPT-r0S-1NbnHOEgS306apApq_HHDqPTmut6dfoDLE1KSRK2t0sbbTSat_oKoZsgTcMJ-TNt9yU9kcVFGgTmYVBMM8hrZLtv7W8yoI)
+
+Select endmill and click on open
+
+![](https://lh6.googleusercontent.com/USojdWPQrtaEdz-JyoBZJJyM-uuJfgh7vpiEoqB72ZuqrvTFB8FGMgLJviVUr0NppDL6k8FVHmXJ9A9Wi3grJBP48W4ybIzOwKAD0DRo0fil3bPIPo74F_y9UbePzw9_Xh4YWaYFRrYbQMYCY9Q7ZK0)
+
+Here just name it something,  i would recommend the bitsize_endmill.fctb
+
+![](https://lh4.googleusercontent.com/RFt2h52iY4jDJIAPxZAgkhfWGHsJNvAPG8aPe1OdH8WTSg8JvaZJGmadoW3Mz2ClS8Tsuri9td5qVwSoQ3vGBdKincFMjE5Q4QO3Rc1p-_rsvtmZiZqeqQAcu-_9QHBRdiks0Q1Ht8vLXp2HdxZiZwY)
+
+Then you will have it added, i opened here an old one of mine by double clicking on it, so i can see the parameters. These are the parameters for the 3mm drill bit
+
+![](https://lh6.googleusercontent.com/DAW_JjXJj3-s9n0mAYYUUH8W-pRZSOP86q4jmocxWHNYKlKwgEgB3tv6E3Dx4sOLbStJGlhZwdj1JHAk3l0Jaf7PnGSCkT8_rUs4iQIpSfvSO7yCPQ6L14LF_Q6_DNzFLuDJpSIGGBkRz-ATfHrp9to)
+
+Then you will see it comes on the list on the right window, you can just select it and it will come on the left side, you can delete the default tool from there then
+
+![](https://lh5.googleusercontent.com/PkXCgYS__SjF7MwBs2hP4u1vyHvGeCrFtx-qPbBz_UbsYbz3QzaAk1TeLUp4ytTjWt-Q6b4Y3I48dL1LRj_K4T4IwjZ2TFaTS1ZbPPsPU57SrStCmzsExhH-73op0_DhR3GT0RixLVNLBwW_BCJ-gVc)
+
+Now go to pocket shape 
+
+![](https://lh6.googleusercontent.com/6vkTQx0p5Vbs1OqNyy8kG8e39nA9MXmJj5CKaJOzWa6F8zqMou-H9Z06r6iqU1i3QycFX9vs-OtxsdGjWN1rxlvPUA9pKSLPgC6KyZjNUne47XKinFA-M_5i-BKl4GrzCdWvn0dbJgg11NeZKzYu7yw)
+
+Here select cutmode: conventional 
+
+![](https://lh3.googleusercontent.com/wbW9Y4Zo8l9YR_o8yvvtff4jyoVKMcfxF1KAVpqzO8VmKycfAlmd9QOborLFSmUb9kkLmaGkhqx3tD0z1Fjax1Rr6WJV6-0LrbfIvrJZjIaJtDEMLgfWshKX-Nbcvf7TfUdaa0FdXWv_rhAtP02d9rc)
+
+and pattern: offset
+
+![](https://lh4.googleusercontent.com/4KDXdWxZqhL0ttSHGTJJfaGPMRUn98SlbSnQfx87Bam6suvVXTPBuXE1fLV0u35kcQ5aPh0a4w9jly3qUh2RCByLbAeUvj1pZ6ztzc1wOau8odQq95fRxMzfHl5wmXDyo-sXPSMFPNGRDY0rK9IQf4M)
+
+And check the box of use outline
+
+![](https://lh3.googleusercontent.com/CUZh3i2kOr2QiBgfxUNmMUfHiWiH5UEf9Kfily-76i1to2Rt28iwchqVXsFikJh-0oh0cD4-GrSGzwuBt_3I4HtycK2sbL3G24ygIoU52CwJLQnNkV452kP7djL4QwsFxBijDkMGm2XUEUZxyO9iGxo)
+
+Then go to Base geometry 
+
+![](https://lh4.googleusercontent.com/jni7Wtsuw830RZRoGpOE0UXLy90TzLNRLz6-J0u7R0dGn60-rruubpRpxeayU3BBxwyRPlpnxonSyzFxW2DMNGSTblzHD1FIkE7CqkBUwOlpBhEoRMJo8DLAEGnNrMx7qAvIGb6zylpibICwBqM9Aqo)
+
+And select the inner edge of the pocket, like this 
+
+![](https://lh5.googleusercontent.com/N_FhehbtQ_ml_dtRMUMEN6VOQ8X96VVdXhsb9zSs9Iug_Cezhzdqh6KKn9knnbk3Wzwzrs0_cFsJosJMKTfExbsf8uDwdAqFrCtZvBWfc2I3DNcU_sneJkcPYTX084KfFqzjlDi7cWScyv9fguedhog)
+
+Look now it is green, then click on add 
+
+![](https://lh6.googleusercontent.com/mUoLzlU8902k1BLgUmNeukj5ANPwZmBDXo8mSNBfGNzTpNreBS5Ui067KcWh_bXtp0IK-xRPJGicRgNn3lz-UbZD3TWGQAT9ZzhZbLPstXQsZzDQLBziZaBlYKF5QBKuJ-4X-8BWxCIoXeuP79Kqa88)
+
+And now its added
+
+![](https://lh6.googleusercontent.com/bymYure5JKUfQ64DKtEQmdv70D6wSVSz45H1gsdzwBzhCN7oiMDVcJnSwM0gkKl1bLlTS0thgL5clNjleQzD185MDkgqiaLTIo3wVvLDr8u3nZxsC2BL-kQ_P4qtQDMSPKrR7kEHgY4wuUhpS1kjfsk)
+
+Then go to depths. Here you also have to adjust the parameters. 
+
+Start depth: 0.00mm(standard)
+
+Final depth: -5.00mm(pocket depth)
+
+Step down: 1.5mm(half of your bit diameter)
+
+After that click on apply and OK
+
+![](https://lh6.googleusercontent.com/ALrQToaepdKVrHoliEKEAu1V9GrqILJaa5TqfdHwXMIxNEW_ZIeafqai4u99TwuFlHMDnvjC_ktpWrvqtMMNrUYNHjPaoVBv_tN-NyEy3upTm2TfaSSQT0j_fOj-MugD9kOpkipHK7Fpcb1nfqTfi7k)
+
+Then you can go to CAM Simulator
+
+![](https://lh5.googleusercontent.com/WqZOG87lh3CQIad0zw4Y5zZtsPAWpAJ8UC1GNN4Bkpvxh_sPefHeFk9-FJiOAwnkKsc8hG7NssEj3ghqhqZDtKJ_hGk7yRWMMPAIdydK1Z1tesM3W86C4qUBTQaVFynvqwxw9wklSV5p0d0IT6KUeys)
+
+And then just click on play 
+
+![](https://lh6.googleusercontent.com/0Jg30LYbzsDtvyNikYdX0Xk2UYOP3frqMBYyJWQS7YwCatUd798z34ij-HwWflmrUKdEysV9qVmPCGaA1TQfzCT9wU3S_drkfsmsc5r-mKXNfiMVaVEJYFkdxlVWtZe5y7BVjUiIUInhxL2yP0Zhkok)and it will simulate making of the pocket for you
+
+![](https://lh6.googleusercontent.com/xIh_1An4sZKXEDcmI3eoE4bjyKijGQ0sSQAoXK-oueLc3tdUL3AGgM_9CAX3fYH4j2InkD11OL9sVj4gO2HbXgyUznIA54KnRS2WX8V0xPNnVCS1L92SRzPa28eV-lLE0BgCciyqHCq5oxOp-jGaKaI)
+
+Now the 2 holes, Click on Profile
+
+![](https://lh6.googleusercontent.com/IGrPxw8D26SN8d6RvoRm6BnhpHV5RMue2ORumsqQqd9gMo8FqfJeRGPwNeEkOPP7LE6sA4JG9D66s10rBWaKd1TnGLuFFTTJSB97Kl-w8OlwzKG5roVx8GhnFFwh9uIhX0YiW1x-j4jLO5GIGwAtN1o)
+
+Then select inside
+
+![](https://lh6.googleusercontent.com/LEGjwVhE5AQarwwshiJgo_EVTyhVVHj4TrFYm_UIgCfzhJKfZaUguU7mYIE7TMp9Teoapq9yCOX64LIhHMoOFHLr1a8m9KoSmfH9b-cOBx5kzxoUVsrCH-ZPAM8NTRs-83Vv7w2FOHpMH44TM2v0q78)
+
+Once here you also have to select the inner edge of the circle and click on Add
+
+![](https://lh4.googleusercontent.com/-srmK2ldfy9cggrgJKMAXCMiQkZJmHp3Cb7ms6O59sxNZcrLmKNMwEoq44f7LTEjyCu0D1Bi-jX8vMKC0NtzA5Tgc8hBErX7aL6fjPSCDKZflPq-n6rOd-uud8C5MJ8PrTQS_B_MQw3CcjVFvFGMLEA)
+
+Now the second one, click on the inner edge and click on Add
+
+![](https://lh6.googleusercontent.com/rZb5CqglgxwG7dFZz-ckFNEYece_CSRzDac91OsgJyxXAZDOKm4_JYqNAFMHlF_1z1YrS5U-Y8jvy7SgJnz3mizoT-_jpZA6MCrbCAuUrVwCLL7yNdqfwYPuZtfRial4mo5RI5VfPlEQzRrp2KRT1-8)
+
+Here you can see, both are added
+
+![](https://lh4.googleusercontent.com/xYhhjvOp5veM9kYzbU1pxaNeD2o7IYX5ROxYXR1mmqUaIgeQRYnaUnl18qAu14H4oxILZ__KMFVJU7MFvviFAEB87ZIjk-zBqra4toGLa3wgoPzW7W7Yt5JEsvAarKqlnbSWmxBl0tMS2YoaKvWMnvs)
+
+Go the depth then and change the parameters again: 
+
+Start depth: 0.00mm
+
+Final depth:-10.10mm(a bit more then your thickness +0.10mm)
+
+Step down: 1.5mm(½ of your drill bit diameter)
+
+Then just click on apply and OK
+
+![](https://lh4.googleusercontent.com/36BVC-a7ZVohhUISzauoRqTxx53U2UVnUhu2aGqcAeX7aRh4qhNsqBZU54RkkPMdsF--7Oon2P-wIjTPDFAHZQ65jf1xoXGu0Y0zg9hFcrNAIfGeYhMuPjYcnCLCRm-OZQG5PR40mWNN5PdKXrBd4fY)
+
+THen you can go to cam again but no unselect the Pocket_Show, so it only simulate drilling of the holes
+
+![](https://lh6.googleusercontent.com/qS6Qy0CHlWteoFjDssqEpUWirAleaXb-64XaKfehSLwyRH6nqsyP_c4XHdiMUJqy3IQ-ju8Lu78pFyKHm1TzVzvOgXCK9WuOoLDGlXLmDWKWE-rRrDcuMSMgw8rd5R6Bno1ABYlKieO8Pc0MXzdASxo)
+
+If you have this then your almost done, i forgot a step
+
+![](https://lh5.googleusercontent.com/_TXCUDwJ5ultIAl_DEQQv0Fjvfc7Q15OlxX2tFnRDX0D3l-o4nkYHgYwmCiSGCqFCbDJ-SQFaCATWU4cIjAJRlzJaugCBmDdF0Axn9XQJcgFAgXRscu-h5QhvhpCTGvyVmex_KPWI9GPNP8X-TcswjE)
+
+Double click on your drill bit
+
+![](https://lh5.googleusercontent.com/bYFmaAuuGeRfiGQqhMsYGDR9GmMrPJniRcIdUnd4az_OEaUiE8bdkg5q7A2XfVz-fy5RgrVhfWX46NlRniLsvLGkO6IijNA5zFbNr6bI17K5YS2oGuXRYMs43tezvMaGCVf_xTKZIFfG6E8kizqennM)you will come here then
+
+Hozin.Feed: 240.00mm/s
+
+Vert.Feed:80.00mm/s
+
+Spindle:10000
+
+And click on OK
+
 
 
