@@ -993,5 +993,56 @@ Spindle:10000
 
 And click on OK
 
+4.5 Cutting the outer edge 
+We will continue on the previous project of ours
+
+This should have been done the previous time but okay, Go to Job and change the X and Y to 10mm,  Z Stays 0mm
+Click on ok after that
+
+THen we create a new profile, and select the top of our base and add it
+ 
+
+Then we go to depth and select these values
+Start depth: 0mm
+Final depth: -10.10mm
+Step down: 1.5mm
+
+
+And make sure its an outside cut
+
+Now we have to add tags: What are tags ? to make sure the piece that we cut doesnt start to move around while we are cutting it 
+
+To add tags. Select the profile first then go to: PAth->Path Dressup->Tag Dress up
+
+
+U will see the coordinated and the location of the tags then, you can adjust them if u wanna, but i am gonna leave them as they are
+
+
+Then i am gonna simulate it and it should look something like this then 
+
+After that we wanted to try dogbone tags, So we created a rectangle hole and putted the tags in there
+
+To create a rectangle check my previous documentation
+I am gonna start with the profile for the rectangle
+
+We have to select all the inner edges 1 by 1, and then add them 
+
+
+We go to depth
+Starting depth: 0mm
+Final depth: -10.10 mm
+Step down: 1.5 mm
+
+Make sure its an inside cut
+
+
+Then we select the rectangle profile and go to path->path dressup-> dogbone tag
+Then we will see the coordinates, then we can go simulate it
+
+
+The little bit in the outer edge is the dogbone 
+
+
+
 
 
