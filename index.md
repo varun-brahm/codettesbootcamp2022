@@ -993,56 +993,79 @@ Spindle:10000
 
 And click on OK
 
-4.5 Cutting the outer edge 
+4.5 Cutting the outer edge 
+---------------------------
+
 We will continue on the previous project of ours
 
-This should have been done the previous time but okay, Go to Job and change the X and Y to 10mm,  Z Stays 0mm
+![](https://lh4.googleusercontent.com/hcMe9W5F0Eg0cFfDLXsaWb3FsNQQE_TXYkNvc_-LFer9sTxt3Ftl6J-EYD-OmhMgJxiRVumW_haXvdX4ZBkRe_a7RxwmIY2KJq_IxSM_HYtAUrlp_EDmxv-1P8rXuiOz1ptk7qagM-eGRtRmwjfy6Pg)
+
+This should have been done the previous time but okay, Go to Job and change the X and Y to 10mm,  Z Stays 0mm
+
 Click on ok after that
 
+![](https://lh5.googleusercontent.com/qsgzdEK0uoUzsTpltVg1Fe8RxKLBKcuAXn0nxgZUakxb72_j84O2kUxtOlxYjXvUihVgkZfjg37HaF18ymyw5sZ5JaC8gF0gS1awtgjO98RhE01UwxOhv_zYLv3ERHAzKQsRoxyrhKbjTs_Etmj0VEk)
+
 THen we create a new profile, and select the top of our base and add it
- 
+
+![](https://lh3.googleusercontent.com/DT_2bDlphlMW5AEWrD1CjhAsQKw36qaiVBvjSz8ejpnwPz_O5laqFWFMR0DAlgS33km6sJZ4iBgqA9V5ZBNcliHcMSvF3a42s_lOH5cuMnPZdXPkDyMNTj9mpgkuoMrqq6LoYvydn7SBjBOfu4cqh80)
 
 Then we go to depth and select these values
+
 Start depth: 0mm
+
 Final depth: -10.10mm
+
 Step down: 1.5mm
 
+![](https://lh4.googleusercontent.com/78pcUJ0k6Tm0eyfuFm8QLMJpYNhk6YrziOa0X_ZeJrMDQL-YhP3_Coh0NivvQVZazCW8-PWHEMIs5Bn09oFe-4W3IAG8ZiQbXEqQdDLrwP50W-wGrrKSxD_80wwaXHlZCUXROovEPj7v_7cgeddskMI)
 
 And make sure its an outside cut
 
-Now we have to add tags: What are tags ? to make sure the piece that we cut doesnt start to move around while we are cutting it 
+Now we have to add tags: What are tags ? to make sure the piece that we cut doesnt start to move around while we are cutting it 
+
+![](https://lh5.googleusercontent.com/n9_wBVSBabrOSjyv3-R_QpteCPI3ThezilsPCiRcSQ2k1w9U94TKtsmw_BtvXXBOR-fOAYIQtOWKJun5dmn7l5YIsTXAxNLmZSi2qKXyihY_Ouulx4ZS03fTh6iLY6KD75lxQHV9UPAaFMFtPXyfkXE)
 
 To add tags. Select the profile first then go to: PAth->Path Dressup->Tag Dress up
 
+![](https://lh5.googleusercontent.com/xg7OFg2vhQR9BvGveDH0vYxi5Yf0mDEy--IsIuk1sXuTPyKC-IFKMCoOxtlZORKuI_itja4uvfQCv7c-czmqsM8XF2ScridWW_cVoQIkTISqME7-dhcVwQREvKVSSdLRNqXxSbDLa3DRfwDwQPKXcZs)
 
 U will see the coordinated and the location of the tags then, you can adjust them if u wanna, but i am gonna leave them as they are
 
+![](https://lh5.googleusercontent.com/kivM1q0VSCij0h2A15pT0fpiCP6VVwJ1Ax_TRwapREs_N-yf1rEc8xqJmunJ6tADkJj4PFoWDEcblXfadez9eIZ8uwiqkt4CTYbqytoCh9NU59GMBxac0DmqJMuQTYw5Jv590Irygu3U-TImmudta6U)
 
-Then i am gonna simulate it and it should look something like this then 
+Then i am gonna simulate it and it should look something like this then
 
 After that we wanted to try dogbone tags, So we created a rectangle hole and putted the tags in there
 
 To create a rectangle check my previous documentation
+
 I am gonna start with the profile for the rectangle
 
-We have to select all the inner edges 1 by 1, and then add them 
+![](https://lh4.googleusercontent.com/mPePdxdCXUR1vbi99eaWye9BxAoepAPNjU1JPXN1zufLSak7iU47veXohErR9z2JL_jsKnnOIJlNHU4w8wfLfgpB7626YAV9UToroxRxC1LSv3b9TAseBqAhVdl21spx2PuIdVpQnN4fnEZ0H57HVJE)
 
+We have to select all the inner edges 1 by 1, and then add them
+
+![](https://lh4.googleusercontent.com/xBP9G6wF3pbKKz5uijRLCi4SnpMvbwvr9ln7I5s9Y05im6ZaupuViWNvbhj0PB7TZqfhXjBa7euX6Ok4zpTiyL8rrORrhZhFU4NFmq00kJA0GkonGf43tBejDuPVvaMPVmhKXm2aMgumnHGkkRoQulE)
 
 We go to depth
+
 Starting depth: 0mm
+
 Final depth: -10.10 mm
+
 Step down: 1.5 mm
+
+![](https://lh3.googleusercontent.com/S8-zBRUNhTYlBVDsC_9Jazn3BVhZwkIHhxAd8T3SUE4i_d-13uDuK5JiUQ_XECLkg6KJ6UDMKReZcQ179oq65_pANe7IbBagn_jkvycH_a2yQZYxk_eJl7WiSbYeuJdXfru_W7spuZXG7uiKTLBZIAY)
 
 Make sure its an inside cut
 
+![](https://lh4.googleusercontent.com/HP__l0PmkNkTV3j1H_GwxlWlQZPBkD7myuSLeZXTutVpiWH11OCM21pcqeiuwyov6v6h7GYQXusVrSQq03vmBR0PNJO64ZVV-tUrzQJV2K18IrbEc5uKI4btowjfalSvzB-KbQyWEql0tUz8ZlOgpoY)
 
 Then we select the rectangle profile and go to path->path dressup-> dogbone tag
+
 Then we will see the coordinates, then we can go simulate it
 
+![](https://lh5.googleusercontent.com/Yy0aNUOpEciE5afBQZ32cYUh-jV19zybaFC3PsjY7TBZ9j1AZahCJ3Ds0ef1gaHrhH-e9P4lIFmsU7OSVOIYHIh8_SH62ABRAFy38EfG2DxCjfUcgVbAC-kxRYSmEV6DSLFkXRuspadqf_HXyEQL274)
 
-The little bit in the outer edge is the dogbone 
-
-
-
-
-
+The little bit in the outer edge is the dogbone
