@@ -1069,3 +1069,30 @@ Then we will see the coordinates, then we can go simulate it
 ![](https://lh5.googleusercontent.com/Yy0aNUOpEciE5afBQZ32cYUh-jV19zybaFC3PsjY7TBZ9j1AZahCJ3Ds0ef1gaHrhH-e9P4lIFmsU7OSVOIYHIh8_SH62ABRAFy38EfG2DxCjfUcgVbAC-kxRYSmEV6DSLFkXRuspadqf_HXyEQL274)
 
 The little bit in the outer edge is the dogbone
+
+4.6. CNCC
+---------
+
+We had to design something related to our final project to cnc, so i designed the magnet holder for my submarine
+
+Just 4 pockets in a circle
+
+![](https://lh5.googleusercontent.com/7Q9dlKmqYqAwyXAHvzdZu1eZg72NZ2NxOggI3rSYjTrXVRE8qCnjDFMDFxOMBmch57l0efDrYUlG60sYuwwNo_9HsoLKBTVEWtlZNvPCby9SQaQ4VnVkKwH-nuTuFUO-8ug2Za6P2pdHzIjpUBs9kEqX0aYXcmw_b7sItwN01Xz0UTIVix3-plzmEw)
+
+The diameter of the magnet is 16mm, and the whole diameter is 80 mm.
+
+After that we open the uccnc  stepcraft_840
+
+![](https://lh5.googleusercontent.com/URILj2aL4FOPfCmcqFgPKeWA-hjvq1uq6VaY3XcoaVEc4EVrxzySNrY-aoz16J32U_0fiAKjY60WqD8i1zflxvCDCtzspfHld53JVwbWqM5i4zvSytOJXwAVExrK6UDWNtZMDgzSP2XenWkm9JwsE_dDL4Md-VKyTH2rbDLowyP6aFE6SIDw-vLIZA)
+
+We first press on reset to connect to the stepcraft. And load the uccnc file.
+
+![](https://lh6.googleusercontent.com/v13jscjQ5r-RfUqQXhNcjHTMT6Qx67GKNhya-DU9JMwDPMcgYVn5kmKb1h4fw5otUK_8Db5DIpc_pfLc5BRB98-QYZ9rPN7hdZTclSWMCG-7bV77Mq34JWfNtNs8erXQiN9ukulchyrcXvkZWK4peMQ)
+
+We need to change the feet speed to F1000.000
+
+I can't demonstrate after this with pictures, But i will try to explain
+
+we need to secure our stock to the stepcraft  and then
+
+We now have to move the drill bit over our design to check if it will fit and need to set our null points, of the Z the null point is on the stock itself. Then we need to put the drill bit on and the vacuum to make sure it doesn't get dusty.
