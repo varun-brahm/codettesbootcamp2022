@@ -1070,29 +1070,286 @@ Then we will see the coordinates, then we can go simulate it
 
 The little bit in the outer edge is the dogbone
 
-4.6. CNCC
----------
+4.6 Design for the Laser
+------------------------
+
+The laser doesnt use 3d design like the 3d printer or the stepcraft, So we need a 2d design for it, To make your own design we can use freecad
+
+We just create a basic square with 2 holes(square) on the sides
+
+![](https://lh6.googleusercontent.com/oYfISsBD19Eu8twfydpj_Hd1OKy9GQetNoEJIllGr2ZMaAdQpTtN455AGOHQTTXlE2YzeanMig80ln3WZxjHoKYPEQQCv-9Q806rcbOjKfBHgtOejgyVSRPY41T-Kb9Mlw7SbYDBQL1TFUYsaCLHlEEOOEGo5Se9OG4AhKgCQDTMTr1qyYzBRF0Pxg)  First we create a basic design
+
+![](https://lh5.googleusercontent.com/OmxEQhwS0PViKH_sBIuT9t2LvIYmMQaC_ytquKCzHfWBRqfwq4t8pkpdYVRtccYg2QtYayKm6tl7iD4s1i0arV0b7MpNDKl6KP19SPoem4TouURVxUsggK8fe2a5RTI798ZItl5J_yrX-2ezQNNn3sf-wSb9yY8dHaHzBA3XM147R9Ntfc7gCObIdw)But we need it in 2D, So we go to Draft and then Modification and Shape 2D, Now we have a 2D design and need to export it
+
+![](https://lh5.googleusercontent.com/NRYOyLrhVDT2hhZKFiSyzhUQ1yCPTFEyuHJJywpxxaknfmQDbUpbqB1_uWQCc29gzwSKYF_Az2j1dfgCNq3c8hHEuyrYjjtfGjRPpWGHpLWvlHAwr8Z8CwUCaQjA53kcOzqjxObBcV8uA7wG4PC1BgHRfN_8IyOHrIlv6oW2DJJtz8ZQiIXcfohkQQ)
+
+File->Export-> save as a Flattend SVG
+
+ After we have the design we need to CAM it
+
+For that we can use inkscape
+
+4.7 Inkscape
+------------
+
+![](https://lh3.googleusercontent.com/1dGvaGRQWVHMJa0ejfXgJvk03eAS6TBWS2dPzy5gUmgSCkVx1jiHNw42FueZseHUw5lo2O-B_oYTeIqb6SvC6ps31l5U4ISzew9ZOgquRLpYW5y0GjKTyNxm5Kx-bEtYf_Blbs8xhaWqvF1XR5LqaS3TfwiID-Dx60IK2Qw6c9K8UK6DH7aaTSpb8g)
+
+First we launch inkscap and open a New document. 
+
+![](https://lh4.googleusercontent.com/GBaX6YuiJveefYJjS66HK1LvjjgSpS6TVDjnreUrK4MSGBlCY7No5zhESULKKn9W7QtjzNeXH106LaHRDh-ClMPQCbx9K9VIbRkYLmXee6JETBAs1DCTMeCN3Wws-kAYkw0sekdgwu8mCdQk_RpuaOf-n59gPL4aWUmPqLcq7WhEu_HMJE0KAiyfkA)
+
+Then we need to import our SVG, we go to FIle->import-> and select the SVG
+
+![](https://lh4.googleusercontent.com/-l4gGR-eP8fteyaE0vTD2McUVKfok7iq7z3dN14abvrmYaTmqzCmEkdwc4Qq1kfqt-IwqRfibEbhrBIaAvewVbftwNgbl-hByORjJm-X0iXJq0KauxHRg103mMJvLq36jDOEH4BXCjAG14tvnnKwI-z-p80jEjViGwfYMSmEYo8KmGUOkE7JmH5nYQ)
+
+Then our SVG is imported
+
+![](https://lh5.googleusercontent.com/pdN3XD1qY9kbekYUbekmUazt_ExTUGa2mOkjOFjgluAkncJ-SuFyv0xCnUQLdMmY2Tm0I_c0vZki_0aNOeX3nEH0EJlQFIN83Be2iHy-SMZJfscVlDu43O0RXB_IFfTaK4WawYV1TRmTnZ-KO7YwZsek51zynz_f3kIQrnerMfmDcOZCfWzr5yZqkA)
+
+Then we click on the kinda pen icon and open fill and stroke
+
+![](https://lh5.googleusercontent.com/s6XQ_JWlS3QOp2zL--SyCGEgm4zoQ1Q6xawZC7w1lGCqQliIGhFQ3Y1nM7IRygc_qynaWRKg9KE_UxzLL4hefopv_fEL4H7L-lqasuDel7qvh7aPHHkzKIVFcdTT026r8hdDV3cwX2dc8E0Co6PKf7UHSRI7IMW-ZG0Ebt_FBRqdOv_zInWCO_7EwA)
+
+We select our object and if we want to cut it,  we make i bright RED(255,0,0)
+
+If we want a picture engraved on it,  we can do the following 
+
+![](https://lh5.googleusercontent.com/egi4vZNZlro5MNbyNmUdtxOVRKFUQjIfzit87LYcngH2hTIBZ-17uD07zEt8n5UKjZOoN8rwFnF3DJnC1C47ny3Dwh0LtePRK1Z-C1kQDgv8tmGbDC45nr6HqWVf2l15cHlkxZYtOZQFO207BbpHoiPad7Gihex1uIPezQCJ5khTJOxoLPp1tc2LUw)
+
+We can go to File->Import-> and just select the picture
+
+![](https://lh5.googleusercontent.com/SBkqMMxD4AVastmVky-LLzRFTsgPVkMkzIjt-QDVbeLnSKljq2KrJiy_DOeFxniNeXNcqrLPlJJf3z92i_NiCEvBnvfW0ym1xmVDzhp6t3c3GIuoC91JVdRX89v34cdg_B6gNZQK3m-QbzpidkDGYZIIx16xOiwSoWb-R_PjDlfFFr6JYpMgM0ZvAQ)
+
+Then we have our picture, but this isnt ready for caming yet, so we go to Path-> Trace Bitmap
+
+![](https://lh3.googleusercontent.com/CqHewH7aF_ujxGVftgFBoZ4BflJtdsRRU_P8gj17TiKIftzIn-UdTV-fsi7_-V2otlp1TYgyYHnFPGAHd_84qLmYitk_7ycD6OAXadUb6834VYNeqMZl45GKxD0bQIKi5PIMh0eLqhgvrvUXl7UQvqC3yEuvOiGNV59MO17tPAYWcOuSi5d8XrxROg)
+
+Then we will get something like this, ust click on update ![](https://lh4.googleusercontent.com/hVqtEUHg9DD-4XuBQr2AkUkuVi0gbaMB38V0IvGHnlfDvGs71N0-471dqDKfztDFUJ3Ll4wCRDPLlWzH0GjKVFcAutanJAkl-I1OjgnImAPNtJL6mjcYPO7FASOWhyR28sXfZTWQGfocKFvalDhu1bNHWYvj2qQtMTQZyFk_PeU40zNbTYyNjwmNsw)
+
+and if the picture isnt clear just up the Threshold and when good, just click on Apply
+
+![](https://lh5.googleusercontent.com/-CjLh-OvRXys84VTunINUzeedhw_wYPSypxuDqysB22hbJYwJdoBMGPvm6Lq6yiioIts0b60NHjBPTkTFV6H7Gf2hwU-a0dtTCUMUndgQvKQlnsO8RvNBZQf4U381p4f1ykemiDTQxqrDVdU8vjJK8S7dcj7_QeO1IYzRFUSQWc9gqMYCU-0kIW23Q)
+
+Now both pictures are in one, we can just delete the old one and adjust the new one
+
+![](https://lh3.googleusercontent.com/opjbpQpO7ur20jSu9lab1ESffmIkAyyECtKN0sEuzYQcTNFLXd1VgPnXcU9g4R4r1q9QzVIobbK5e6DrNkpBiFaZVld31HY52goa1H2yZ7a2iJX85refAZK8aMubCCAv_7jVdxoE0dCKTSWL-lG28oFJo1JIS4YyULE_CURMmfNpgB-qRPhlTYyTNA)
+
+Like this 
+
+![](https://lh6.googleusercontent.com/tieGzTCvU9XAMLmY9_QDYVeSxADVcYODuzzeZg22SAe0_l3pmgeLtbs-xM-E8dH3NIHgmcvnUV-SuVP8T6DoG8HFJhWtq8Dk7dRkDgs1YHJbGngqNcORncN2d0ARYlDohp4eTyXBKSKjlTUR9hWDhoqnjB7yefADrVibPZBP2ikvQq0wVsNSPIP-Vg)
+
+Then we can Go to FIll and stroke again, but to fill this time and fill it with another color
+
+![](https://lh5.googleusercontent.com/2oFwrM5PEzySDnTkM4NrgR2HZWDz6pkEf_k19LWk6GM7d4n7dm4y5wZ-Sv4vUC4aHkcF5nt63AA_IVhZwX51W2uIYwJfln3mdIBWqpntgdq3pKvhhz_vU-rHBkOGn_sCveBe8C-_a8FRIddWC7POKhXaECae50t5s4Pfu227RGyey58q6RjNSFWPuw)
+
+Then we can save the file, just go to File-> Save as-> and just put ink after the name
+
+
+Chapter 5:  CNCC
+================
+
+5.1: Stepcraft
+--------------
 
 We had to design something related to our final project to cnc, so i designed the magnet holder for my submarine
 
 Just 4 pockets in a circle
 
-![](https://lh5.googleusercontent.com/7Q9dlKmqYqAwyXAHvzdZu1eZg72NZ2NxOggI3rSYjTrXVRE8qCnjDFMDFxOMBmch57l0efDrYUlG60sYuwwNo_9HsoLKBTVEWtlZNvPCby9SQaQ4VnVkKwH-nuTuFUO-8ug2Za6P2pdHzIjpUBs9kEqX0aYXcmw_b7sItwN01Xz0UTIVix3-plzmEw)
+![](https://lh6.googleusercontent.com/n80RydUDO04oLFkoK20P5rsYZmdbejpkkK36mEsDcqZ-WJSiTwHCQws88ErbJ06Whh2IOPF4mliXOAQ2SGyPFGnw2h5CMJ3CmhaFAulxp5JQfVvvjMzswvXaOkGM-fj5DhVesvVkpQDM_6fhBxylDe5d_PEa9w7xPC_aVK3Eif4nQozjHt58TlmciA)
 
 The diameter of the magnet is 16mm, and the whole diameter is 80 mm.
 
 After that we open the uccnc  stepcraft_840
 
-![](https://lh5.googleusercontent.com/URILj2aL4FOPfCmcqFgPKeWA-hjvq1uq6VaY3XcoaVEc4EVrxzySNrY-aoz16J32U_0fiAKjY60WqD8i1zflxvCDCtzspfHld53JVwbWqM5i4zvSytOJXwAVExrK6UDWNtZMDgzSP2XenWkm9JwsE_dDL4Md-VKyTH2rbDLowyP6aFE6SIDw-vLIZA)
+![](https://lh3.googleusercontent.com/NGvJ4TJmTWuSsYk9PRuAiTWgCox5BXiET-fhr-N_HO1kGksutY59hotZSqHHhDOTJb4wkp171nk69oZWZ5w3zCS89GFwYePj3-tQoW1NsNkMm5zj1ALWcXoq5hBpnSf4DQm0WvpJSdYF7O1_S7xpDtu7cMBfeCXl94ku0ksD_f0Mq7aXmPFtR7Sd_w)
 
 We first press on reset to connect to the stepcraft. And load the uccnc file.
 
-![](https://lh6.googleusercontent.com/v13jscjQ5r-RfUqQXhNcjHTMT6Qx67GKNhya-DU9JMwDPMcgYVn5kmKb1h4fw5otUK_8Db5DIpc_pfLc5BRB98-QYZ9rPN7hdZTclSWMCG-7bV77Mq34JWfNtNs8erXQiN9ukulchyrcXvkZWK4peMQ)
+![](https://lh3.googleusercontent.com/kaNwMJ9LjNy0i1A5yn3SBG7uITIs1UbjJELWS-GVkCTN8uY4GOur-_VuaFcdUySxxLu0WVcLvSW8S4EZfoyFl3TyS0d-33LqKg3OnAKzI2mvMxFru0Ql4tZ7ybSSx6QEpq7Ay9_tUpfms0Lv3m44uTZtge2lbJAulnu36LctHNWGqWBzAeCMZXnkfw)
 
 We need to change the feet speed to F1000.000
 
 I can't demonstrate after this with pictures, But i will try to explain
 
-we need to secure our stock to the stepcraft  and then
+we need to secure our stock to the stepcraft and then
 
-We now have to move the drill bit over our design to check if it will fit and need to set our null points, of the Z the null point is on the stock itself. Then we need to put the drill bit on and the vacuum to make sure it doesn't get dusty.
+We now have to move the drill bit over our design to check if it will fit 
+
+and need to set our null points, of the Z the null point is on the stock itself. 
+
+Then we need to put the drill bit on 
+
+and the vacuum to make sure it doesn't get dusty.
+
+Notes: 
+
+-   If something goes wrong, press the red button on the side of the cnc
+
+-   Vacuum on the stock as well, to make sure nothing hinders the drill bit
+
+-   The drill needs to be turned on and off manually 
+
+-   Always cnc with your laptop on power
+
+5.2 Laser
+---------
+
+Now we are gonna work with the Laser. 
+
+Under here we have the parameters for the laser
+
+|
+
+CUTTING
+
+ |\
+ |
+|
+
+Power
+
+ |
+
+70
+
+ |
+|
+
+Speed
+
+ |
+
+10
+
+ |
+|
+
+ENGRAVING
+
+ |\
+ |
+|
+
+Power
+
+ |
+
+20
+
+ |
+|
+
+Speed
+
+ |
+
+70
+
+ |
+|
+
+MATERIAL
+
+ |\
+ |
+|
+
+Slot width
+
+ |
+
+Material-2* kerf
+
+ |
+|
+
+Kerf
+
+ |
+
+0.06
+
+ |
+|
+
+Line width
+
+ |
+
+0.2
+
+ |
+
+Kerf: (the Thickness of the laser beam when its gonna cut,so have to adjust our design to make sure we get the perfect cut) 
+
+Power: The power of the laser
+
+Speed: The speed which the laser moves with
+
+For that we need a 2D design, We can use Freecad or [makerspace](https://en.makercase.com/#/).
+
+1.  Fill the laser with water on the backside, make sure there is no air in it
+
+2.  And we also adjust the height of the laser 
+
+3.  Turn on the laser controller, NOT THE LASER
+
+1.  ![](https://lh6.googleusercontent.com/NqEN8Pg5gcr2A-cn63TSpqk1sW8AeqkIys7oHAcOS1d1W4Lm31N8BzwmtNRNXNmKcPZ6rHuDWJ1w9E6_PB6oXuYkUgZkvv55yDC9vNRoizM1Neihv5Ci_S7Q6ObLSN81C3WOnFY6TPni_S-zC5Ip3PU-9nXzj2TWWEqJdsgMfTEV6ieobe4ju9Yj4Q)
+
+This is the laser controller, on this we can see all the details that we need,
+
+-   If this is the first time of that day, We pulse the laser to make sure everything is fine
+
+-   First we adjust the laser to the point on the stock that we want to use, and then we pulse it, if the line is too wide, that means the laser is to high or low, so we have to adjust the height again 
+
+-   Then we can send our design to the laser with the usb cable, if u hear a beep and see ur design on the screen ,means ur good to go, if not just try again, or different usb ports
+
+-   And go to the place you want the laser to start cutting at and click on Origin
+
+-   Then we click on Range to check if everything is fine , not too big or small, not going out of stock etc.
+
+-   IF everything is fine, we click on Start
+
+So this is it for the laser, basics, lets get into using it
+
+First we need a design, Check chapter 4.6 and 4.7 For that
+
+![](https://lh5.googleusercontent.com/ezyft21HFH68kO_iPqaeRrAc_viR22UxpKa0e3WvkyZkh6YJKnvhaKRhSWCrfr0Bjmq7p4Kiye1rDF6C5SY5567UO7r6Q7mR3oLII2GtiATHxPsrnHyku_-w9Gy4chg7MhzerbnD6H0YbSJ-NuWq1ryTMKeKVSG2gQJG7c-WuLVcCPPsauIKmHvrFA)
+
+Then we open lightburn and import the files, File->import->select the SVG
+
+![](https://lh3.googleusercontent.com/I_rTC_OLVJV9w9-07azgaNYoDs7BL5swj1Rl1aVGTxPOTD0Uux0WsACw5tF6gz4DYGXAHnlGRtJGyAJB58mLibC6mYLr27d8lbfVaJDyPsrLqtIxsmRJlYZ5NNkjwEu5fhLAIsKSFw797Hw8blfRDH_sZwm62-7X4VRsPjfedOZeOdPZcwkR34vKww)
+
+Put the whole design in the top right corner and as u can see, there is no red color, i made a mistake in the inkscape then, but no worries, BLACK is cutting and GREEN is engraving then, First make sure the cutting color is always on the bottom, 
+
+![](https://lh5.googleusercontent.com/oX2cAMi8owrTpa8WDE8zR7c-04CE8OW93T24aoaTF_6dtavgr63vWDyZ_41GjVeRJ-nCmqGBmkw3FEYRWT-8dRYf5KigCO4OxrWwrQPCn_DTQ6ugBhKPVHOUhnSrsliu-UzWnv7s99R1TbClNKSPtouEwaMK69t3SW2yvIS2DkGc8ykQ1xvA7ix2qg)
+
+LIke this 
+
+![](https://lh6.googleusercontent.com/ocYfYYA5iXQ0Ix5Kde0eKbATufqx_ij3qbvSHUETOztVpVdTEHX1SSyAQ5Y4mt_mran0gvhXguitNrcgpjOCFUVQ9P8Iur8dI3Ym_dEBlo-lOometr8w7AwvTbs1cJiFwXQE36InYa5cU0TdDkreq4peJmTJ9hp2X5u-rsjpoY4GcfUmvePcju8wFQ)
+
+For engraving these parameters are correct, Power 20% and speed 70
+
+![](https://lh4.googleusercontent.com/qIHiRwcIGXhuz_DXb4N1WwGktW_RmH9GQNz1ZFEn7mfLrSL9aVKkgL0eFXzCVU1yhIgNdSTpGyc48fXwGZ2b1kPrx0zuwmEPZfjQehsOHHOoqptSGyCv8RsouAzgw_8BkfvoHmaS01IiUVQKvhhTZT3_hpV1qm4DEdlfjXwj7jsKhg5cjYpK74AWeQ)
+
+For cutting the parameters need to be, Power 70% speed 10
+
+![](https://lh4.googleusercontent.com/9gKZYVleJkMCHBaC-fDo0uKlO-qKk2r3bY0pzdSS8HTUrtwKOgQXgIB7CazRcj31RNseksXbpOkUTPbGgZK94qfj3yLrlZdmlpZQwdJ4MimqMhGRPHe5EC1SkXX6N2ERsZK8eddIHp3bbOl1liPT4N_JiUhAieWiQYqpGOZdvJIzOfRjlPuNz_C9aA)
+
+If all is correct, just click on send
+
+1.  ![](https://lh6.googleusercontent.com/NqEN8Pg5gcr2A-cn63TSpqk1sW8AeqkIys7oHAcOS1d1W4Lm31N8BzwmtNRNXNmKcPZ6rHuDWJ1w9E6_PB6oXuYkUgZkvv55yDC9vNRoizM1Neihv5Ci_S7Q6ObLSN81C3WOnFY6TPni_S-zC5Ip3PU-9nXzj2TWWEqJdsgMfTEV6ieobe4ju9Yj4Q)
+
+This is the laser controller, on this we can see all the details that we need,
+
+-   If this is the first time of that day, We pulse the laser to make sure everything is fine
+
+-   First we adjust the laser to the point on the stock that we want to use, and then we pulse it, if the line is too wide, that means the laser is to high or low, so we have to adjust the height again 
+
+-   Then we can send our design to the laser with the usb cable, if u hear a beep and see ur design on the screen ,means ur good to go, if not just try again, or different usb ports
+
+-   And go to the place you want the laser to start cutting at and click on Origin
+
+-   Then we click on Range to check if everything is fine , not too big or small, not going out of stock etc.
+
+-   IF everything is fine, we click on Start
