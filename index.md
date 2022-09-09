@@ -1089,6 +1089,32 @@ File->Export-> save as a Flattend SVG
 
 For that we can use inkscape
 
+
+
+
+Makerspace
+
+<https://en.makercase.com/#/>
+
+We can also use makerspace to design a box or something
+
+![](https://lh6.googleusercontent.com/huq-M5k-lRCw1fk9p9yfdB47hpH-BCFBR2x9_qy3JXLvc3e_v5TXK8o6xgIn2WV9iWN2G_fjpFR68gg3Gwzp8TOn0-FCxXllpn1Mfjk2ZIOx38jDT_5wyE_zCdA2eG2g0gvL_5meqckaDaLzM__aGKB11aYWitJsx0tzERF9y_oe3h_zkQ3FvFygBQ)
+
+First we select the type of box, i will take basic box
+
+![](https://lh6.googleusercontent.com/tPY0tfi78Jhb5vYktVOkL17HqhdTRcrqRN-7iZEqNb8aF2dfXJ8ktd_0YfV_mXrxrgL4A6musBPU1_xGBD0dkyLXSjlWErjsLKedrUKiMQ2qRTTaOZU9gti85UgaNdwtQULntadnNC0spEJ8cj5omHqkVUDTCnfuh-ONoRHDRvrbCGvl2GmunNgRKA)
+
+Select milimeters, and the parameters and the rest of the things, those depend
+
+![](https://lh6.googleusercontent.com/-PvKFA0sI1xSPmBfLb7ZLCb7-VgLQoXEyi--94h3Hw7DUeomLD4vP2VxGv07vDjaLvbt-cUQt_GUZdsK4MshX2CMUDDLAclZ5KlyHCEdr3q9-CyCYiLYUaZ4Ofz2RbP7M2fe_nvngHBrUqBKWb6TWrCorxQ6U5gmsHyKAW30lq_2AENY0cfFiOf6rA)and then select download box plans,  go to line formatting then and select cut line width is 0.2 
+
+![](https://lh5.googleusercontent.com/xuYo3cNMcxWUYkic3MUB317RqpfEamhQUlZKx9S6pykBnyIrllQ9gYDQu3gY5jSplH2NJF73XJRLHkoUCtZgw2shnFHEeZlUXJvLDHHYPGtE8oGhhe_8CKp-u_81BAdzFo3YoP1O_FxPUeRtz0DYFgEwEj8PdmejvQRcQp18yVFbBlvNMYxicqoemw)
+
+And then select Kerf and its 0.06 mm
+
+
+
+
 4.7 Inkscape
 ------------
 
