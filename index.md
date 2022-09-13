@@ -1379,3 +1379,188 @@ This is the laser controller, on this we can see all the details that we need,
 -   Then we click on Range to check if everything is fine , not too big or small, not going out of stock etc.
 
 -   IF everything is fine, we click on Start
+
+<a id="CB6">
+Chapter 6: Electronic design </a>
+=============================
+
+So now we have to make our own arduino or yeah bord using a microcontroller unit(mcu)
+
+For that we use [kicad](https://www.kicad.org/), So how do we begin
+
+First we of course have to download[ kicad](https://www.kicad.org/download/windows/) and some [libraries](http://fabacademy.org/2019/labs/lakazlab/students/julie-sundar/files/week16/kicad.zip). Then we need to install kicad 
+
+6.1 installation and setup 
+---------------------------
+
+![](https://lh4.googleusercontent.com/9eHX1EThw6yi9rRgFeAKKN-GNOCKec2sMWLCitF5hy_caiFeWXozdRdeCIADvEVo2KSzCv_A-2g2V9WYKZNFlaMsLOz3nlurTf8gOFYzzdU5sWy4WZ98hVkKeu_WaXymFLL2U3U1V0dic0XLb706HQuNRdexrqtCq8Dc6sqZ1kOS1ShT1mmiFqZ7iA)
+
+ And just click through
+
+![](https://lh4.googleusercontent.com/VvAOZsKwH8HLhi4ZeAqGgP_9QI-z08lFY6UcZci1txf8x0VqJ-StwNOH6xhqNcvE5A-HNVWtFdmw1IcsGwLgqA-MZhwwcWkjgsDgVLTXev5Rlk0D1IWbWrWiqRcvTtPQSLvIcypXXU9yN2OwwC_HBowNknCCeXd0UdmFvrKSEHase-bg_SLNTwggkg)
+
+Then we can take those libraries from the zip and import it in 
+
+C:\Program Files\KiCad\6.0\lib\kicad
+
+![](https://lh4.googleusercontent.com/iY8PEu2TjhI2Esex47olK3iYx5l_fHcBaY2lLX9uj6fZVfla4ew2mpRkEzsIonmTZlNpX7cUOrIRtzPhdEE6gzuwKziaRVuxNMKfig0QzHB866rO1Ad0FGSNPEeRCACWA4ydJ77bp6FaiOQEQVbluNi_SjE1NeRXgABs9n5xFILWnyJOpEerNYjJVA)
+
+After that we can open kicad click on new project and create one
+
+![](https://lh6.googleusercontent.com/me9MAQ3ojaDYZeIzZ1zt8aS-uHjOwfk6dlaPj_1dseXZkth3LtBMcYXBO8h4GrpLhjXulZalmtdmFxVvEW2hEkmGU4nLmLHfMBvg0dwTHOWnBFjR1JdvgX2RPwKVsvTMMmdifGIAvH7vxogstXvJT2w4RKAfazJQkgu7iu79JXyj4oYhRsRPusm45Q)
+
+And we select schematic view
+
+![](https://lh6.googleusercontent.com/tq0vvXyCAcRuTAmH2E0ulD1oHnUfhK4vANMIiOM7HcCiM2C-A0wlSxwKhP7q6lYeWjqVJavVAMS_3LTpJhq93P7WbC8sdNTesdGMEOnAHRs5XpNO72zFJwms_y76KINGZc5XK-abnJPK22UzBFWCR2xFRBSEsDX5t0pyaUYhjeav0zl79WFE7PD6Fg)
+
+And we should get something like this
+
+First we need to import our libraries before we can continue
+
+We go to Preferences-> Manage symbol libraries
+
+![](https://lh5.googleusercontent.com/xCqWzekuHfT_rL4LglJuFqnIzZRMwX1pdULmQyUDhHChj2e9gy-svV5UKHgiRimOB4GHDr34l0GUVX5S44GH6bxx3hiTG8uJlZ7_hwk8jBx032WqviHCErHLe5nYZOsF78A5pfhJNfaiHbt4VNkXuDhS481Rcgq4_uf5_NF8UUUs1A-jfJ_S3w3_2w)
+
+We add a new row
+
+![](https://lh5.googleusercontent.com/KoFCET5uZwYZYIlXG3UAL45yjW_MpqPvH3ceUM8yHfQ8RLkS2CEzkmEoYJR04NgoR6GUw9AnPR0xAN9R3wwaaNU4ZB11k2V5NBzTpUanRDoZz426elMWZ-eEi05ez19TTbKSFD3OGHxqTSMgQPFaP7ys-koaLtsdxEA4iRuQQst8as-u9MT1Oz6Rhg)
+
+Then select browse
+
+![](https://lh3.googleusercontent.com/-XYP2IPOFIUO5Ye0Qw-lFLaT8MZwvfRNy1V2h7TMNJ9Du31HhW9pObu9lBxda8VbFsAI_XaD_qRDJS4oKw_5rppK0RX5MHGwT48CQSpCtP6W-lXk-YQ91XndJXr36L-0Iy5BgIk1Xv49oOVwJ-g__VANZ9JdCP_n2RetnWC81uwZnppuIgG3JCCLOg)
+
+Go to C:\Program Files\KiCad\6.0\lib\kicad and select fab.lib
+
+Okay now we also need to import the libraries to annotate 
+
+![](https://lh6.googleusercontent.com/E1uefZTx1CS_2DrMkjtBA_Otv5cyieOgR4xMQLiwjkhOgTyHy7ysuyO3xf46moJzRN0aJqRkjtS7uls-qc1ngZtxqGP2TmZ3HFjkpJ-1osuPAYnIu9XnqiSrsa8ulK5kbpi-fccZ-zzeLTkCQzE69ECVZ5LX9KpbOk64ASzwx1L8rPenTP49efp6ZA)
+
+We click on Run footprint assignment tool 
+
+![](https://lh3.googleusercontent.com/5laWK1y8MJySLfhs2Qe_idhGsLOxh2U77GA3Gpvi6tj7p6DkDco7dzdwY6JGyBkC9aecrTTHvTofDX9LacsouUlqDb8LrNKa4d5wRnx-mVsDxCeE6x0FyIP92w8Vf5emveUm_UOpMEu_AW2-Ea5LA1k5-c83oFt2q9q42zNBvjZDEcNmu8V-_7Zxdw)
+
+ We click on Preferences-> Manage libraries and click on new and browse
+
+![](https://lh5.googleusercontent.com/2lZcZVVJjD66yXqa_Lpxeh5B5gpOv4dcGGJrVEl734nEucXsCh3HoTmIcJ1tkda4WlsZaU2vdKx7_c3NaFGfSmPgfnNqs_LygQ0rBrnM7ZLzZNDdh62u5K-34WTpg4dZnNoR3yaLtbc1LwUe5ZwxTyNJCwAa5FyfFJLp9K2C0DkChrIB5QUp4jcfIQ)
+
+This time just select the folder fab_pretty and click on select folder
+
+That is it for the installation and setup of the environment
+
+Now to the real work
+
+6.2 Schematic 
+--------------
+
+First we have to import everything 
+
+Components that we are gonna use are 
+
+-   1*Atmega328p-a
+
+-   2*capacitors (CAP-US1206)
+
+-   2*Resistors(RES-US1206)
+
+-   1*Led
+
+-   1*Resonator
+
+-   1*Avrisp
+
+-   1*FTDI-SM-HEADER
+
+-   1*6MM-Switch
+
+-   2*6 pin female connectors
+
+-   2*8 pin female connectors
+
+![](https://lh4.googleusercontent.com/Z-bfL3LG0h09DmeHOg1OIgphd0pNT72a7Bo6gGGq9tNtydF8AjvppcZH9YRW85mRxVY4rPOaAGB7iW3Qsu_D8ipvggLVJEPnnb0qjyMhZefPQUeGB1iBD2s8FM-EPODwSHH8nPdqFSif-jwq_9VVQRUKt66j1VtATy5VEAWpcAMjg-542s3XUqgMHw)
+
+Atmega328P-A
+
+![](https://lh6.googleusercontent.com/3-VtEqPm7fhXGcOZIlKAoO-1d3FwEn3PWtxIIzMGmox1bMc4xAW5kMstGx9tQnQ_Z1SKW3oPqWM0KLrql5h83gtqwY6_NR5jl_r6DB58n4oOeYJv_nIyz4FhHuKyzZtbfUZFBQMJgkrHo7vUHJQxtAgU1qfyfXuMOUmEcVMNsbQmZJkql4avZh4ybA)
+
+CAP-US1206
+
+![](https://lh5.googleusercontent.com/xVgKP2wJEghmxqnbycG3rmauajXQY_a2LZnEUlj1Hr1irJht_NjsKengG3vOWMlLHo2k34t10ykY_LmOXFBt2tH3xZHQkgA5GJCXKh1VwQS-RFT-9bukelYtdsb6e1cYpj-8u-qxD4bq0TLEILNi3yPrTRFgXFQs3xyiitH37clpnwSgpo8sN-i5Tw)
+
+Resistors(RES_US1206)
+
+![](https://lh3.googleusercontent.com/ImSJSyYtGxZ_6Wo9hcNj1eFtM_RFIc0aS35ghWAZLdnabNNeNC3z8bmqB43C2qErQrGJEClnMGzK5pzeQ1LdzlKeB8oOa4MIzfkiQ1JQEVaN3pzvh3U54PJifBEOj3ygUtjk6nI75bLHTNatmGaConiVvWg5SNYEPe3HqLK3vqA-JxGquNukGll0Ww)
+
+LED
+
+![](https://lh4.googleusercontent.com/Ohtcdnb_bsbgoyXG76PN8V8iZDC6gjnZHvjoxsnI6s5sws6ZOKOfkXBhGkbei-sdVyMv_qxAEF2YK5kkidKasIE4rL5MG320c-Ggn1LZ4G7D1vE9YF5K7EthATUWvi9PY3VFda8NlNwWSMG7q3ddEi-UTU2p-z1SQhy3gbsz0q9QslLtQNN5hsfGdQ)
+
+RESONATOR
+
+![](https://lh5.googleusercontent.com/5amtwY9qWz-5cbrnVhmD1j-iCsNo_SZqMqR1rfVgjhelNyQcSJ5B46MIibjJz5aFW__cHNh6AozGkBYYSsD_YIlsQ8r3FK8b6YpXkf16OlClRubmcQW3zPbfnt6JP54c4FQZ15V_pZxgC2w7EjN8tjmVB0b0mYKV_HWT0jNmBIwr9xZtEhaekNymXQ)
+
+AVRISP
+
+![](https://lh4.googleusercontent.com/NzK0oXlYRAULD96SET2xILSwfS1F5euRoFZ841_pi7ErHKFWunxKr5gAdZ9vVSOc0r4LwxeHfXEL6k16qXzwoF4gTKY839GZ1EXiC3uJj14rUrrbEj8O1HZaiNCs-82JY-HGlMcJCZF6rZB-wJ7eJle8U_aL8FjN09J9ghgSTu2o0RmsOXCdGEZx3w)
+
+FTDI-SMD-HEADER
+
+![](https://lh3.googleusercontent.com/PCijPN27NdlLmSerdWxs51kByWR1NIn4dEHtvd2Arexf_p4IOg9RKBEnj9L88U9f6mMIm1M3zzQqXH7jYl0H7JN7045wO-bjw58DxgTFOxCGO9yNhs8TjX4okXOFhzapcRqVl0w0Q2CqWUdAu2vkerV-iGGLIk_iKV1tY-RrgaRPsRtafaBQxcLtjw)
+
+6MM_SWITCH6MM_SWITCH
+
+![](https://lh5.googleusercontent.com/88T1QZtSEXSbB_WK9T9vYqjNGQfksL5_CZtG4jZnUYemZT-yNMXVqeApEnWHxrm6Vc2YWFjUM5h8HqunsGVxdy9nKd5sIxzbnFfwktR88B__SjchugT9XseyjbKlBhfaqeTITaQqfR7ewVeEWq9xz2FMYHRDCN2WX3Bz8d4jFvkeZ5VXwnMZyclRkg)
+
+Conn_01x06_Female
+
+![](https://lh5.googleusercontent.com/jbprqS02wPvztB6TnbJNmRHep4C3JbE4Nf_P_8mvYnOwHTrEnDSDpmSKksqr7Iodq924RLS2enRl8IK7yqLdMDW4K7yNhX7HmN59iH5wHI1K4cBDPsKTS_9F5_N5sBsfSn5Nc5fc8yvGASnNoYsOsVL0R4qPbX9blCFUt9VYiTSm4ZFhNDSFD4fI5Q)
+
+Conn_01x08_Female
+
+![](https://lh3.googleusercontent.com/b5mZJ5ZdDkA5k3J7H5uPGhoYexaXvIPoDttmSCNvwORT_Dz3VhvuVRKNLmu8PSneA2hlEFI526ttjB4eupLgPVsRX5UjX9BySvpCahNxBrig1p9wogWT1SbEEh8DXq3nuxNo4KkLpHuRYwtEMc_2sgzbLQEU_lNww7Z_CFKllw16lSgNZvo1XU1p-g)
+
+Once you have everything on the schematic board its time to connect them
+
+![](https://lh6.googleusercontent.com/xptkZujnVRH8atwCu08-P10SLjDsSd549r8iDFVjsAMNvQazzLlGdtviBJCyJzaq4POz-o_WFgUPBobuiqbFYwte9fJ40GLFvu80VW2zdr820pMAD6LRXYwvnBQmexVcREgQlj_EVKsuL_JHN6w3IGrGWtl0MiMzcU1S-YjNhJCO7KQ4Tfzea6clZw)
+
+And we could use this picture as reference, i wont go on how to connect each wire, but start small, i started on the left side and connect one by one, you cant rush this or you will make mistakes
+
+But okay, once everything is connected or wired up, we need to assign footprints 
+
+![](https://lh5.googleusercontent.com/PZ1J89LQdmRzCIeickrQoTIHcJRSBgUk7vqorjAoXeYPdvetD4eGHiDxYlHnxYr5pCOSpxVywIhTGt8nN0mEyoxGlFE7n_uss0_UkoLtol8Wj0oAziMoiw_D-0NEE7lRXNDECe2SrasMrnx03K8sgtIVfwmx8KJW6ZM_Hjs7Y_i4xoxhco9u6mLvqg)
+
+Click on Run footprint assignment tool and then annotate and once here, you can go to fab on the left and the list will pop up on the right, from there select the prints as in here and then click on apply,save & continue. If everything is right, nothing will happen or pop up 
+
+![](https://lh5.googleusercontent.com/_duK5SAH9UcQdZ4hA6Fe0HYmNL2w_DfZzupKBEehW63ZU2GSCUThBQgJN3KwUr3rXWiLJpYS25ECwKb0o4s6hD9MMfo3XdhXORCDCeJugtjmm_6IkAoAuqpbyyfSUV7vdl1FzW4vN16xxeEpAt063jsoLIjFUoH8bKWf6wAymHS75Zi5mkZGwkJeEg)
+
+Then go to file-> Export-> Netlist  and click on export netlist
+
+![](https://lh3.googleusercontent.com/7nQlT9gpNNGqJSzsB5eled8VDotXLrjbOt5QNoecaCCCCItLsqJQbG7dl0CNLEsS-rp6kDgcF0CfBBSs0WkgKXzNto6PWlzZLUx3OMjI4qPX342YZbJkr0TUBh5z3SLFvqC3KUSmW_rjYEZmoACLy9hw7ngWKYm6jxAe-DQCLKdN5KZJp9ec-ndrEQ)then click on the green icon on the top righty, open pcb in board editor
+
+6.3 PCB board editor 
+---------------------
+
+![](https://lh4.googleusercontent.com/N1BnkwX1LZ2qKRDFxlh2BgeBuqTTlox9eGkl7XjYiNcV7oyKJ3iQUgw-QQUyBBkPSf6w17G81W1eBwPiH4OuFCkM-BUhUiFyPmQ9XQKwgJIJ5nRTmo12lUSj12Nr04OXFDaN2CPXKqxg3FX1m2zlhDLu9pcUYr5R6VigC0bKMJe8ej3lKBnLxDqpbg)
+
+Welcome to the PBC BOARD EDITOR, also knows as HELLLLLLLL!!!!!!!!!!!!!!!!!!
+
+![](https://lh6.googleusercontent.com/SNLnbKewYwm-L6P4EHSA0kH7pOgkYNoPOrkaeTsOxigF9V70scrOyuX52BEA-EHMIb_YpaFuOe6GoUuREEASuJoriOAkVfUHJEjhXh-FmN2_YEvrW-kN1ZEyfa-mn8zszfQCiNZXqiEtvqIv4XEu1_KSAwid1OnTbw7Uuo89dhpQvlvIIRK9pQ83eg)
+
+GO to File-> Import-> Netlist, Then select the file, click on load en test and then update PCB
+
+![](https://lh4.googleusercontent.com/qhEJT9ze_8Wh2wXqQYeobh4D95hfaSE56KwK7N5k4FKHLLVgKKVttXPFj54IeLFW7TRnhh7sBye4njM31CO6XEJxF5v6FFybSbSN5JJGLTr9aTWTRkCS67UBA1-6H3hzsMG9XMYqMCv-He6VZ5SmUCiJWqogmB0v_9-SEvbsHrLTyMm-6oGDfeYRPw)
+
+THEN you will be stuck with this mess
+
+I cant guide you how to fix this, its a puzzle, you just need to puzzle it out, but here are a few tips
+
+![](https://lh4.googleusercontent.com/5yDhZ5EaHXMVntn0XPcYtoxNr3_ht3Us3oG0j7b35-n7qDnerFwrFWu3840cqnCsA4_kigIPbbgG1dEQUB0n5Wq5dJmA61J9GOBdX6EHO9aeF3TKm85VOoaSQwFk018UrpevQn0DwlqlrKRic-dahC-wtK6xQh2UI8cR3d5V7E4sDDKcTJJuavFrRw)
+
+First move everything out of the way and keep the io's and position them around the board, rotate them etc. Now you have this, much simpler
+
+![](https://lh6.googleusercontent.com/Ibc-6EonnZ4bCTUVGkLJwBElqfXXd6bYo9HBXQPJOFYptJSDRDlpDolCjRYeKtL0aYA9jY0_oGmJMpmHfliTnBQz4pCZ51Uh1o8NLXehzOgYGOwCTe6EljuHmM_kvnmA7wLKh8CY0HEAs7JYu2I90w-0IS4gchF2ef-YXwli98JT05cYSnk4PjD1fQ)
+
+And now connect the io's and bring back the other stuff  and spread them apart, now its just a game of connecting and playing around
+
+In the end i had this 
+
+And now we have to continue with it
