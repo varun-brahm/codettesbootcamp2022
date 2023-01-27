@@ -1564,3 +1564,175 @@ And now connect the io's and bring back the other stuff  and spread them apart,
 In the end i had this 
 
 And now we have to continue with it
+
+<a id="CB12">
+Chapter 12: Final Project </a>
+=============================
+
+
+Final documentation
+
+So for my final project, I am building a submarine, So how did i get started and what did to get here as of today its 20-1-2023 10 0 clock at night, So i jumped blindly into this and i had no idea how submarines even work, so i started research on that and found out they work with [ballast tanks](https://qph.cf2.quoracdn.net/main-qimg-29f56dbb281c9c958277c216812a2197), So air is lighter then water,so when there is water in the tank the submarine is heavier and sinks but when there is air in the tank the submarine is lighter, So now my problem, since i am not gonna build a really big submarine, i have around 1kg to play around with or 10N, Almost nothing. Second thing is Communication, i know that wifi signals dont work underwater, so what now, [RADIO](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3355409/),
+
+Physical Build
+--------------
+
+But first things first, i can put communication on a hold for a sec, but the ballast tanks are more important, So lets get building i would say
+
+Ballast tanks
+-------------
+
+1.  research
+
+2.  Shopping
+
+3.  Logic/ building
+
+### 1.Research
+
+So how do the ballast tanks work, Well from the videos i watched,Most of them fake i found [real one](https://www.youtube.com/watch?v=pUba126uzvU) it looks like they used a syringe, and something to move it somehow
+
+So the problem with this is, that is it a moving part inside a closed space, not that much of an issue, but it has to like extend to the back, so that part kept me busy for a long time. 
+
+### Works: 
+
+But i took a bolt and put it against a wall and saw that if i rotate it around its axis, the bolt it self stays in the same place, but the nut on the bolt, moves itself, so there i had my answer, i had to make the moving part of the syringe the nut and the rest of it the bolt to say so.
+
+2\. So first i bought a like rod on which a nut could like walk and a bunch on nuts and i ordered the [syringe](https://www.amazon.com/EElabper-Converter-Applicator-Experiments-Industrial/dp/B09BVR2V3Z/ref=sr_1_2?crid=3P8S1O6PVXMR1&keywords=giant+syringe+500ml&qid=1674263622&sprefix=giant+syringe+500ml%2Caps%2C172&sr=8-2) from amazon
+
+![](https://lh5.googleusercontent.com/YSGJ_plE-uPE6UibX327g4ugXnJySzicqlsH7RqhnvSAVNFCEVvZhW6Zc5DPBGFi5Ez93sS3jNZP4dyFrHU_AdyeNR5U7_3d_0OyVi9MNScxT4SN6UN1MzaemU-AfcUTbPVy_ZxSNvGzABCMXO7yu_4mtZ3vn2Lh1-t6OPfg450NBGlpDtAsnSwv-7djDQ)![](https://lh3.googleusercontent.com/l8L95Zus2hPaupESUlWFO6J2U13I_POReBRQ6xH8xKzwdToIDcR8clklZy_LZ2zd0VCkwuLdY2uj3GZ8K-FRO8aLvSEkRULmzcbnbfqsWQwaRLMS28dR06vQRZpojQFXiAhSufHDH6bUhYp2G8KoCFHYjxvW7zTBf2rlCfPL7t-YbgOTarx0JoDXEhBNoQ)
+
+3\. So after that i started building with the help of my dad, we did it in like an hour, so we didn't really have any pics of the building, but we have a video of the end result 
+
+<https://drive.google.com/file/d/12Kf_LXws27O5j4G9DfCABOmAb7oNQHuw/view?usp=share_link>
+
+### Final troubleshooting: 
+
+But 2 things that i saw after the build was done is that, i need a fast and high torque motor. Not two of the best combination, but we were using a drill to test the syringe, so i had a broken drill lying around, so i took it apart and used that motor for the pump
+
+So i tried controlling my motor with the l298n, but something was burning, so i turned it off, for the final that i have now, is my ballast tank that i can control with a drill, not the most iot way, but something and here is my final prototype
+
+![](https://lh6.googleusercontent.com/4lcZetUf1Og0cegffK_crd9KCU2CLkWWGcaHJmENYPcKNY090Ycp1j6JaNxjXkH76_arzyziBA05mWLVEOAWvtsmbQ1NJnjY8XDhrJYcU7TxsALEHmSulUMPHOpf7GivWHvueaP7Dxd5lC7o2qgvQrEUful8r7SWPYt72LU-gbdS8f60PjMMzpt2BLaN8g)
+
+Holder
+------
+
+So to hold the syringe in the pipe i also have created a design in freecad and lasered it once, 
+
+First i had to measure the diameter of the syringe which is 70mm and the diameter of the pipe is 102mm, So i created my design in freecad
+
+![](https://lh4.googleusercontent.com/nDv14SEDTukk81wkmXrRA1TzlA9Nu0pfRmaVDo_aoJTqaM-CIyGPiPlRVxzTFn4WN6NuFGaID0asZseojhiTcyKndaGSvwNU50FS5LCxay_uetslbQMy1ZqbGkOWRj_6kN4sUj739Egqgl2dHRNLVnXNT1ZgAMQCS0_l6XDVzz9NgoxQ0xZl0JVyPpAZlQ)
+
+So it looks something like this.
+
+So thats for the ballas tanks, Now the movement
+
+I still haven't figured that out and i am kinda lost on that part, So i am still brainstorming on that
+
+Fi
+
+Code
+----
+
+So thats that for the physical build, now software based
+
+So my whole submarine will be controlled by a webapp, now lets see how far i got
+
+So i first build the basic movements in the app, ![](https://lh3.googleusercontent.com/wG1mIW9Qcj3FBl6Z3in_EP-vEm7RU6lD9jfuzVpVJBrXmJkpg4Vy-gNrELfKZ0iaDFcFhm0Tu5buN6ttkpYtk2kLdJYOzIcp9s186yWLxQxs-syjPRdDqxIXvUh5tHsOzRNyB-XcunnIXrI0KX9_q-e4pfDXCZqUoZpKBfvLlPdo5YHPhtgs2rn0A4rwXg)
+
+As you can see i have a basic front,back,left, right and its a sub, so also up and down
+
+ And it can call a function on my esp32 
+
+<https://drive.google.com/file/d/1l-SWLY19tTEE1o8wEdGQpien8GGYyn8w/view?usp=sharing>
+
+But i notices that it is giving me trouble, so i think imma need to use an arduino, but i wanted to try the esp32 one more time, so i am gonna test that tomorrow and give the results, and i also updated my dashboard a bit, caused it looked boring ![](https://lh3.googleusercontent.com/V41TuRnrbPcvUelflnYCM8SbC75tMY-PvUzYDJ2FI7Ibw3w1sr3E5rzdZMNQzUD83Bbm97WjDFSF-xR08QzpqkSLden2ogD96u-CAwQA9fSj2D8Wflx4VwkPczfbilFyYXo1GHsxQCgq8Ddyz76Sz62S_z56nU1YWU86M1rzC56kOasAopLXYxFU3lh2qg)
+
+ A bit better i would say, simple enough to understand tho.
+
+So thats the code part.
+
+So here under i put the research links, every website i visited and got something off in here, 
+
+Pictures, videos, documentation, research of other people
+
+Ballast tanks
+
+<https://create.arduino.cc/projecthub/aruna5/autonomous-underwater-vehicle-a7a53a>
+
+<https://qph.cf2.quoracdn.net/main-qimg-29f56dbb281c9c958277c216812a2197>
+
+<https://www.youtube.com/watch?v=pUba126uzvU>
+
+<https://www.youtube.com/watch?v=kEanKJhZvA0>
+
+<https://www.youtube.com/watch?v=O0NUXnxgax8>
+
+Check list: Build ballast tanks
+
+Communicatie
+
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3355409/>
+
+<https://worldbuilding.stackexchange.com/questions/202979/what-radio-wave-frequencies-work-best-for-communication-between-deep-sea-creatur>
+
+<https://www.youtube.com/watch?v=NcLn61cqdak>
+
+<https://www.youtube.com/watch?v=cq5fDZrWNWA>
+
+<https://www.youtube.com/watch?v=zhkN9V1SI-A>
+
+And here under i did some calculations, didn't work out tho, but still
+
+Submarine calculations: 
+
+Fz=m.g
+
+       1*10
+
+     = 10N\
+Fw= pgv
+
+    = 1.10.1m3
+
+Oppervlakte cylinder= πr.r.h
+
+1= 3.14.r.r.0.5
+
+h=50cm
+
+r=0.8m= 80cm
+
+h=1m
+
+r=56cm
+
+h=0.5
+
+r=10
+
+Fb = Vs × D × g
+
+3.14.5.5.50=0.003925m3
+
+fw= 0.0157*1*10= 0.517N
+
+Components:
+
+-   servo 3* 60g each
+
+-   Dc motors 1* 100 g
+
+-   Magnets 200g
+
+-   Arduino mega 37g
+
+-   Additional : 200g
+
+ Total weight: 180+100+200+37+200= 717g
+
+Fz=m.g
+
+      0.717.10= 7.17 N
+
+F
