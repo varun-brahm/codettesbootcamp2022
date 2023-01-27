@@ -1,0 +1,115 @@
+<!-- Complete project details: https://randomnerdtutorials.com/esp32-web-server-websocket-sliders/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SUBS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1>Submarine Dashbord</h1>
+    </div>
+    <div class="content">
+       <!-- <div class="card-grid">
+            <div class="card">
+                <p class="card-title">Depth</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider1" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">sink: <span id="sliderValue1"></span> &percnt;</p> -->
+            </div>
+			</div>
+			
+			
+			
+			  <div class="container">
+        <div id="time" align="right">
+            <span class="digit" id="hr">
+              00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">
+              00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">
+              00</span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="count">
+              00</span>
+        </div>
+        <!-- <div id="buttons">
+            <button class="btn" id="start">
+              Start mission  </button>
+          <button class="btn" id="stop">
+              Stop</button>
+            <button class="btn" id="reset">
+              Reset</button> -->
+        </div>
+    </div>
+			
+			
+			
+			
+			
+			
+			
+			
+			<button id="Forward"  onclick="F()">Forward </button>
+			<br>
+			<button id="Left"  onclick="L()">Left </button>
+			
+			<button id="Right"  onclick="R()">Right </button>
+			<br>
+			<button id="Backward"  onclick="B()">Backwards </button>
+			<br>
+			
+			
+
+			 <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider1" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">sink: <span id="sliderValue1"></span> &percnt;</p>
+				<div align="left">
+				<h4>Range(Meters)</h4>
+	<input id ="range" class="input" type="number" placeholder="Type a message" onkeydown="sendMsg(this)"></input><br>
+	
+	<h4>Depth(Meters)</h4>
+	<input id ="range" class="input" type="number" placeholder="Type a message" onkeydown="sendMsg(this)"></input><br>
+	
+	<h4>Time out(seconde)</h4>
+	<input id ="range" class="input" type="number" placeholder="Type a message" onkeydown="sendMsg(this)"></input>
+  
+<!--<button id="submit"  onclick="sendMessageButton(getElementById('range').value); getElementById('range').value='';">Submit </button> -->
+				</div>
+				<br>
+			<div id="buttons" >
+            <button class="btn" id="start">
+              Start mission </button>
+         <button class="btn" id="stop">
+              Stop mission</button>
+            
+        </div>
+			
+				  <button class="btnE" id="Estop"> Emergency Stop</button> 
+				
+         <!--   <div class="card">
+                <p class="card-title"> Fader 2</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider2" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue2"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title"> Fader 3</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider3" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue3"></span> &percnt;</p>
+            </div> -->
+        
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
